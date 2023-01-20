@@ -1,0 +1,759 @@
+/* version bureau/desktop : largeur de l’écran 992px à 1400px max */
+/* version tablette : largeur de l’écran de 768px à 991px */
+/* version mobile : largeur de l’écran < 768px */
+
+/*appel d'une police google font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*ajout de variables de couleurs à la racine*/
+:root {
+    --grey: #f2f2f2;
+    --lblue: #deebff;
+    --dblue: #0065fc;
+}
+
+/* configuration box-sizing à border-box */
+* {
+    box-sizing: border-box;
+}
+
+/*
+-------------
+BODY DESKTOP
+-------------
+*/
+
+/* Body : police, largeur max */
+body {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    font-family: Raleway;
+}
+
+/*
+-------------
+FORMATAGE DU LOGO + POLICES PAR DEFAUT, BOUTONS, ETC
+-------------
+*/
+
+/* FORMATAGE DU LOGO */
+header>div>img {
+    width: 10vh;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/*FORMATAGE FORMULAIRE ET CHAMPS DE FORMULAIRE*/
+input,
+form {
+    font-family: Raleway;
+}
+
+/* FORMATAGE DU BOUTON */
+button {
+    font-family: Raleway;
+}
+
+/* FORMATAGE DE LA LISTE ET ELEMENTS DE LISTE */
+ul li {
+    list-style: none;
+    margin-inline-start: 0px;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* FORMATAGE DES LIENS du menu et du footer */
+li a:link,
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* FORMATAGE DES LIENS hover et active du menu et du footer*/
+li a:hover,
+li a:active {
+    color: var(--dblue);
+}
+
+
+
+/* FORMATAGE COULEURS TEX5TE*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: black;
+}
+
+/* FORMATAGE H4 */
+h4 {
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+
+/* FORMATAGE H3 */
+h3 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 25px;
+}
+
+/* FORMATAGE FIGURE */
+figure {
+    width: min-content;
+}
+
+/* CLASSE COULEUR BLEUE POUR ICONES*/
+.icoblue {
+    color: var(--dblue);
+}
+
+/* FORMATAGE NOTATION ETOILES BLEUES 1/5 à 4/5 dans article Hébergement Gauche et Hébergement Droite */
+.hebergementA div article i,
+aside div article div i {
+    color: var(--dblue);
+}
+
+/* FORMATAGE NOTATION ETOILES GRISES 5/5 dans article Hébergement Gauche et Hébergement droite*/
+.hebergementA div article i:last-child,
+aside div article div i:last-child {
+    color: var(--grey);
+}
+
+/*
+-------------
+DECOUPAGE DU HEADER
+-------------
+*/
+
+/*LIGNE 1 : Logo + menu */
+/*LIGNE 2 : H1 + H2 */
+/*LIGNE 3 : Formulaire de recherche */
+/*LIGNE 4 : Filtres */
+
+/* FLEX pour HEADER LIGNE 1 : Logo + menu*/
+.headerL1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+/* FLEX pour menu dans HEADER LIGNE 1 */
+.headerL1 nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* FLEX pour formulaire de recherche dans HEADER LIGNE 3 */
+.headerL3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* FLEX pour HEADER LIGNE 4 : p + div avec boutons filtres */
+.headerL4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header div:first-child{
+    text-align: center;
+}
+
+/* FLEX pour div avec boutons filtres */
+.headerL4 div:nth-child(2) {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+/*-------------
+FORMATAGE DU MENU
+-------------
+
+/* agrandissement de la zone de clic de chaque lien dans le menu */
+nav a {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* ajout d'une marge haute pour le menu*/
+nav {
+    margin-top: 25px;
+
+}
+
+/* ajout d'une barre bleue lors du survol pour le menu */
+nav a:hover,
+nav a:focus {
+    border-top: 2px solid var(--dblue);
+    padding-top: 23px;
+}
+
+
+/* Entête : Formatage de l'icône gps */
+.headerL3 i {
+    background-color: var(--grey);
+    padding: 17px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+/* Entête : Configuration du bouton de recherche */
+header input[type=submit] {
+    background-color: var(--dblue);
+    border: 0px;
+    padding: 16px 10px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Entête : Stylisation du formulaire de recherche */
+form input {
+    border: 2px solid var(--grey);
+    padding: 14px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+/* Entête : Stylisation des filtres */
+button {
+    border: 2px solid var(--grey);
+    padding: 12px 20px 12px 20px;
+    border-radius: 25px;
+    background-color: white;
+    font-family: Raleway;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Entête : Stylisation des filtres lors du survol*/
+button:hover,
+button:active {
+    border-color: var(--grey);
+    background-color: var(--lblue);
+}
+
+
+
+
+
+
+/*-------------
+DECOUPAGE DE LA ZONE HEBERGEMENT
+-------------
+HEBERBEMENT PARTIE GAUCHE => A  : HEBERGEMENT A MARSEILLE
+HEBERGEMENT PARTIE B : LES PLUS POPULAIRES
+/*
+
+
+/* FLEX pour résultats */
+.resultats {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* Formatage de l'îcône dans la zone de résultats */
+.resultats i {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+/* mise en gras du nombre de résultats */
+main div:first-child>p {
+    font-weight: 600;
+}
+
+
+/* FLEX pour Hébergement A et B */
+.hebergementAetB {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+/* FLEX pour Hébergement A */
+.hebergementA {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: var(--grey);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+
+
+/* FLEX pour les div dans Hébergement A, contenant les cards */
+.hebergementA div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* APPARENCE DES CARDS DANS HEBERGEMENT A et B */
+.hebergementA>div article,
+aside>div article {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+
+/* Taille des images dans hébergement A Gauche */
+.hebergementA div article img {
+    width: 14vw;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Mise en gras du texte "afficher plus */
+.hebergementA>p:last-child {
+    font-weight: 600;
+}
+
+
+/* Hébergement B => aside */
+aside {
+    background-color: var(--grey);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+/* FLEX du div dans aside : titre + icone */
+aside div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* FLEX pour les articles dans Hébergement B : les plus populaires */
+aside>div article {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 100%;
+}
+
+aside>div article div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+aside>div article div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+/* ajout d'une marge gauche entre l'image gauche et la description droite */
+aside div div:nth-child(even) {
+    margin-left: 10px;
+}
+
+/* Taille des images dans ASIDE PARTIE B : Les plus populaires */
+aside div article img {
+    height: 20vh;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+
+/* FLEX pour la div dans Activités */
+.activites {
+    width: 100%;
+}
+
+/* FLEX pour la div dans Activités */
+.activites div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* APPARENCE DES CARDS DANS ACTIVITES */
+.activites>div article {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding-bottom: 8px;
+
+}
+
+/* Taille des images dans activités */
+.activites div article figure img {
+    width: 20vw;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Suppression des marges par défaut de figure */
+.activites div article figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline: 0;
+}
+
+/* Taille des images dans activités */
+.activites div article h4 {
+    padding: 10px;
+    margin: 0px;
+}
+
+
+/* FLEX pour footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grey);
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+    gap: 200px;
+}
+
+
+/* Suppression de l'espace restant dans les listes */
+footer ul {
+    padding-inline-start: 0px;
+}
+
+
+
+/*
++++++++++++++++++++++++
+RESPONSIVE TABLETTE
++++++++++++++++++++++++
+*/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+    /* TAB FORMATAGE DU LOGO */
+    header>div>img {
+        width: 10vw;
+        height: 100%;
+
+    }
+
+    /* TAB FLEX pour div avec boutons filtres */
+    .headerL4 div {
+        width: 100%;
+    }
+
+
+    /*TAB  FLEX pour Hébergement A et B */
+    .hebergementAetB {
+        flex-direction: column;
+    }
+
+
+    /* TAB FLEX pour Hébergement A */
+    .hebergementA {
+        width: 100%;
+    }
+
+    /* TAB Taille des images dans hébergement A Gauche */
+    .hebergementA div article img {
+        width: 22vw;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    /*TAB  FLEX pour la div dans Activités */
+    .activites div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* TAB FLEX por la div dans Hébergement B Aside Les plus populaires */
+    aside>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* TAB FLEX pour les articles dans Hébergement B : les plus populaires */
+    aside div article {
+        width: 26vw;
+        min-width: 23vw;
+    }
+
+    /* TAB FLEX la div contenant le texte dans aside / hébergement B */
+    aside div article div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* TAB Taille des images dans ASIDE PARTIE B : Les plus populaires */
+    aside div article img {
+        height: 25vh;
+        max-height: 27vh;
+        width: 12vw;
+        object-fit: cover;
+        justify-content: space-between;
+    }
+
+
+    /* TAB Taille des images dans activités */
+    .activites div article figure img {
+        width: 20vw;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    /* TAB FLEX pour footer */
+    footer {
+        gap: 80px;
+    }
+
+}
+
+
+
+
+/*
++++++++++++++++++++++++
+RESPONSIVE MOBILE
++++++++++++++++++++++++
+*/
+@media screen and (max-width: 768px) {
+
+    /* MOB Largeur du body à 100% */
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* MOB Largeur du header à 90% */
+    header {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* MOB FORMATAGE DU LOGO */
+    header>div>img {
+        width: 15%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    /* MOB FLEX pour HEADER LIGNE 1 : menu + logo*/
+    .headerL1 {
+        flex-direction: column;
+    }
+
+    /* MOB CENTRAGE DU MENU */
+    .headerL1 nav ul {
+        justify-content: center;
+        padding: 0;
+    }
+
+
+    /* MOB AGRANDISSEMENT DE LA ZONE DE CLIC DES ITEMS DU MENU ET AJOUT D UN PADDING BAS*/
+    .headerL1 nav ul li a {
+        padding: 23px 90px;
+    }
+
+    /* MOB MODIFICATION DE LA BARRE QUI S AJOUTE LORS DU SURVOL DU MENU */
+    nav a:hover,
+    nav a:focus {
+        border-top: 0px;
+        padding-top: 0px;
+        border-bottom: 2px solid var(--dblue);
+        padding-top: 23px;
+    }
+
+    /* MOB EXTENSION DE LA ZONE DEDIEE A LA BARRE BLEUE LORS DU SURVOL */
+    .headerL1 nav ul li {
+        width: 50vw;
+    }
+
+    /* MOB FLEX pour formulaire de recherche dans HEADER LIGNE 3 */
+    .headerL3 {
+        justify-content: center;
+        width: 90%;
+    }
+
+    /* MOB FLEX pour HEADER LIGNE 4 : p + div avec boutons filtres */
+    .headerL4 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        text-align: left;
+    }
+
+    /* MOB FLEX pour HEADER LIGNE 4 : div avec boutons filtres */
+    .headerL4 div {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    /* MOB FLEX pour HEADER LIGNE 4 : boutons filtres */
+    .headerL4 button {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    /* MOB ajout d'une marge droite pour la zone de résultats */
+    .resultats i {
+        margin-left: 30px;
+    }
+
+
+    /* MOB FLEX pour Hébergement A et B */
+    .hebergementAetB {
+        flex-direction: column-reverse;
+    }
+
+    /* MOB FLEX pour Hébergement A */
+    .hebergementA {
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
+
+    }
+
+    /*MOB  Taille des images dans hébergement A Gauche */
+    .hebergementA div article img {
+        width: 85vw;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    /* MOB FLEX pour aside : HEBERGEMENT B */
+    aside {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    /*MOB  LARGEUR DE L'A/RTICLE DANS ASIDE HEBEGEMENT G */
+    aside div article {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* ajout d'une marge droite de 30px pour l'icone à droite du titre */
+    aside div:first-child i {
+        padding-right: 30px;
+    }
+
+
+    /*MOB  FLEX pour div dans Hébergement A */
+    .hebergementA div {
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+
+    /* MOB FLEX la div contenant le texte dans aside / hébergement B */
+    aside>article>div:nth-child(2) {
+        flex-direction: row;
+    }
+
+
+    /* MOB Taille des images dans ASIDE PARTIE B : Les plus populaires */
+    aside div article img {
+        height: 200px;
+        width: 150px;
+        min-width: 50Px;
+        object-fit: cover;
+        border-radius: 20px 0 0 20px;
+    }
+
+    /* MOB Hébergement Droite B Les plus populaires : mise en colonne */
+    aside div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    /* MOB ajout d'un padding bottom à 50px */
+    aside {
+        padding-bottom: 50px;
+    }
+
+    /* MOB ajout d'un padding de 30px à Gauche pour les H3 et les p */
+    aside h3,
+    .hebergementA h3,
+    .hebergementA p:last-child {
+        padding-left: 30px;
+    }
+
+    /* MOB largeur d'activités à 9à% */
+    .activites {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* MOB FLEX pour la div dans Activités */
+    .activites div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* MOB taille des images dans activités */
+    .activites div article figure img {
+        width: 87vw;
+        height: 180px;
+    }
+
+    /* MOB FLEX pour footer */
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
