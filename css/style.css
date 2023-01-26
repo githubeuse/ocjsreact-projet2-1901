@@ -1,6 +1,6 @@
 /* version bureau/desktop : largeur de l’écran 992px à 1400px max */
 /* version tablette : largeur de l’écran de 768px à 991px */
-/* version mobile : largeur de l’écran < 768px */
+/* version mobile : largeur de l’écran inférieure à 768px */
 
 /*appel d'une police google font*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -572,6 +572,7 @@ RESPONSIVE TABLETTE
     /* TAB CONTENEUR HEBERGEMENT A ET B : contient HEBERGEMENT GAUCHE ET DROITE*/
     .hebergementAetB {
         flex-direction: column;
+        width: 100%;
     }
 
 
@@ -583,7 +584,7 @@ RESPONSIVE TABLETTE
 
     /* TAB HEBERBEMENT PARTIE GAUCHE => A  : HEBERGEMENT A MARSEILLE */
     .hebergementA {
-        width: 100%;
+        width: 90%;
     }
 
     /* TAB TAILLE DES IMAGES DANS HÉBERGEMENT A GAUCHE  */
@@ -602,8 +603,7 @@ RESPONSIVE TABLETTE
 
     /* HÉBERGEMENT B => ASIDE */
     aside {
-        width: 100%;
-        margin-right: 10px;
+        width: 92%;
     }
 
     /* TAB DIV DANS HÉBERGEMENT B ASIDE LES PLUS POPULAIRES */
@@ -627,7 +627,10 @@ RESPONSIVE TABLETTE
 
     /* TAB TAILLE DES IMAGES DANS ASIDE PARTIE B : LES PLUS POPULAIRES */
     aside div article img {
-        width: 35vw;
+        width: 25vw;
+        height: 100%;
+        min-height: 169px;
+        max-height: 170px;
         object-fit: cover;
         justify-content: space-between;
     }
