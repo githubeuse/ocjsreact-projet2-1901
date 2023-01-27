@@ -701,8 +701,18 @@ RESPONSIVE MOBILE
     }
 
 
+    /*
+    -------------
+    MOB STYLISATION DU LOGO + POLICES PAR DEFAUT, BOUTONS, ETC
+    -------------
+    */
 
-
+    /* MOB AJOUT D'UN PADDING DE 30PX À GAUCHE POUR LES H3 ET LES P DANS HEBERGEMENT DROITE B */
+    aside h3,
+    .hebergementA h3,
+    .hebergementA p:last-child {
+        padding-left: 0px;
+    }
 
     /*
     -------------
@@ -881,7 +891,9 @@ RESPONSIVE MOBILE
         flex-direction: column;
     }
 
-
+    .hebergementA>p {
+        display: none;
+    }
 
 
     /*
@@ -941,12 +953,7 @@ RESPONSIVE MOBILE
         align-items: baseline;
     }
 
-    /* MOB AJOUT D'UN PADDING DE 30PX À GAUCHE POUR LES H3 ET LES P DANS HEBERGEMENT DROITE B */
-    aside h3,
-    .hebergementA h3,
-    .hebergementA p:last-child {
-        padding-left: 30px;
-    }
+
 
 
 
