@@ -701,6 +701,9 @@ RESPONSIVE MOBILE
     }
 
 
+
+
+
     /*
     -------------
     MOB HEADER : ENTETE VERSION MOBILE
@@ -806,6 +809,7 @@ RESPONSIVE MOBILE
     /* MOB FIXATION DE LA LARGEUR DU CONTAINER DES BOUTONS FILTRES DANS HEADER LIGNE 4 */
     .headerL4 div:nth-child(2) {
         width: 100%;
+        margin: 0 0 15px 0;
     }
 
     .headerL4 div:nth-child(2) button {
@@ -896,7 +900,7 @@ RESPONSIVE MOBILE
     /*MOB LARGEUR DE L'ARTICLE DANS ASIDE HEBERGEMENT B */
     aside div article {
         width: 90%;
-        margin: auto;
+        margin: 0px;
     }
 
     /* AJOUT D'UNE MARGE DROITE DE 30PX POUR L'ICONE À DROITE DU TITRE :HEBERGEMENT B */
