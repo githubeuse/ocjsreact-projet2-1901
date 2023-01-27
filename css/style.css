@@ -714,6 +714,16 @@ RESPONSIVE MOBILE
         padding-left: 0px;
     }
 
+    h1 {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-weight: normal;
+    }
+
     /*
     -------------
     MOB HEADER : ENTETE VERSION MOBILE
@@ -728,7 +738,7 @@ RESPONSIVE MOBILE
 
     /* MOB STYLISATION DU LOGO */
     header>div>img {
-        width: 15%;
+        width: 20%;
         margin: auto;
         padding-top: 20px;
     }
