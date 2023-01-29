@@ -49,6 +49,10 @@ img {
     align-items: baseline;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 
 .width-60percent {
     width: 60%;
@@ -95,6 +99,9 @@ RESPONSIVE MOBILE
         width: 100%;
     }
 
+    width-45percent-mob {
+        width: 45%;
+    }
 
 
 }
