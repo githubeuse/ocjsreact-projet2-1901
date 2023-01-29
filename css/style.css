@@ -58,11 +58,11 @@ img {
 }
 
 
-.width-70percent {
+.width-70 {
     width: 70%;
 }
 
-.width-30percent {
+.width-30 {
     width: 30%;
 }
 
@@ -171,9 +171,10 @@ RESPONSIVE TABLETTE
         width: 90%;
     }
 
-    .width-100percent-tab {
+    .width-100-tab {
         width: 100%;
     }
+
 
 
     section article {
@@ -203,7 +204,7 @@ RESPONSIVE MOBILE
         flex-wrap: wrap;
     }
 
-    .width-100percent-mob {
+    .width-100-mob {
         width: 100%;
     }
 
