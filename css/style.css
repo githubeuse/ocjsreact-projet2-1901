@@ -62,6 +62,23 @@ img {
     width: 70%;
 }
 
+.width-30percent {
+    width: 30%;
+}
+
+.gap20px {
+    gap: 20px;
+}
+
+.padding-rl-30px {
+    padding: 10px 30px;
+}
+
+/* fond gris */
+.grey-bg {
+    background-color: var(--grey);
+}
+
 
 /* STYLISATION DE LA LISTE NON ORDONNEE */
 ul {
@@ -142,8 +159,16 @@ RESPONSIVE TABLETTE
         flex-direction: row;
     }
 
+    .flex-column-tab {
+        flex-direction: column;
+    }
+
     .flex-nowrap-tab {
         flex-wrap: nowrap;
+    }
+
+    .width-90-tab {
+        width: 90%;
     }
 
     .width-100percent-tab {
@@ -151,6 +176,9 @@ RESPONSIVE TABLETTE
     }
 
 
+    section article {
+        max-width: 150px;
+    }
 }
 
 
@@ -178,6 +206,12 @@ RESPONSIVE MOBILE
     .width-100percent-mob {
         width: 100%;
     }
+
+    .width-90-mob {
+        width: 90%;
+    }
+
+
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     button {
