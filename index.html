@@ -40,7 +40,7 @@
             <img src="images/logo/logo_booki.png" alt="Logo">
             <div>
                 <nav>
-                    <ul class=" flex-row">
+                    <ul class="flex-row">
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
                     </ul>
@@ -48,12 +48,12 @@
             </div>
         </div>
         <!--LIGNE 2 : H1 + H2 -->
-        <div>
+        <div class="width-90-mob m-auto">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre-ville ou en pleine nature</h2>
         </div>
         <!--LIGNE 3 : Formulaire de recherche -->
-        <div class=" flex-row flex-start flex-baseline">
+        <div class=" flex-row flex-start flex-baseline width-90-mob m-auto">
             <i class="fa-solid fa-location-dot"></i>
             <form action="/action_page.php" method="post">
                 <input type="email" id="email" name="email" placeholder="Marseille, France">
@@ -61,15 +61,15 @@
             </form>
         </div>
         <!--LIGNE 4 : Filtres-->
-        <div class=" flex-row flex-start flex-baseline flex-column-mob">
+        <div class=" flex-row flex-start flex-baseline flex-column-mob width-90-mob m-auto">
             <p>Filtres</p>
             <div class="flex-row flex-spacebetween flex-nowrap width-60 width-100-tab flex-wrap-mob">
-                <button> <i class="fa-solid fa-money-bill-wave icoblue"></i>
+                <button> <i class="fa-solid fa-money-bill-wave blueico"></i>
                     <span>Economique</span></button>
-                <button><i class="fa-solid fa-child-dress icoblue"></i>
+                <button><i class="fa-solid fa-child-dress blueico"></i>
                     <span>Familial</span></button>
-                <button> <i class="fa-solid fa-heart icoblue"></i><span>Romantique</span></button>
-                <button> <i class="fa-solid fa-dog icoblue"></i>
+                <button> <i class="fa-solid fa-heart blueico"></i><span>Romantique</span></button>
+                <button> <i class="fa-solid fa-dog blueico"></i>
                     <span>Animaux autorisés</span>
                 </button>
             </div>
@@ -78,7 +78,7 @@
     </header>
     <main>
         <!--NOMBRE DE RESULTATS DE RECHERCHE-->
-        <div class=" flex-row flex-start flex-baseline">
+        <div class=" flex-row flex-start flex-baseline width-90-mob m-auto">
             <i class="fa-solid fa-info icoblue"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
@@ -94,7 +94,7 @@
         <div class="flex-row flex-spacebetween gap20px width-100 flex-column-tab flex-columnreverse-mob">
 
             <!--HEBERBEMENT PARTIE GAUCHE : HEBERGEMENT A MARSEILLE-->
-            <section class=" grey-bg padding-rl-30px width-70 width-92-tab">
+            <section class=" grey-bg padding-rl-30px width-70 width-92-tab nobg-mob">
                 <h3>Hébergements à Marseille</h3>
                 <div class=" flex-row flex-spacebetween flex-column-mob">
                     <a href="#">
@@ -160,14 +160,14 @@
                         </article>
                     </a>
                 </div>
-                <p><a href="#">Afficher plus</a></p>
+                <p class="display-none-mob"><a href="#">Afficher plus</a></p>
             </section>
 
             <!--HEBERGEMENT B PARTIE DROITE : LES PLUS POPULAIRES-->
             <aside class=" grey-bg padding-rl-30px width-30  width-92-tab">
                 <div class="flex-row flex-baseline gap20px">
                     <h3>Les plus populaires</h3>
-                    <i class="fa-solid fa-chart-line icoblue"></i>
+                    <i class="fa-solid fa-chart-line blueico"></i>
                 </div>
                 <div class=" flex-column flex-spacebetween flex-row-tab flex-column-mob ">
                     <a href="#">
@@ -219,7 +219,7 @@
                 </div>
             </aside>
         </div>
-        <section class="">
+        <section class="width-92-mob m-auto">
             <h3>Activités à Marseille</h3>
             <div class="flex-row flex-spacebetween flex-column-mob">
                 <a href="#">
