@@ -59,6 +59,23 @@ img {
 }
 
 
+/* STYLISATION BOUTONS */
+button {
+    border: 2px solid var(--grey);
+    padding: 9px 20px 8px 20px;
+    border-radius: 25px;
+    background-color: white;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+/* STYLISATION BOUTONS LORS DU SURVOL */
+button:hover,
+button:active {
+    border-color: var(--grey);
+    background-color: var(--lblue);
+}
+
 
 
 
@@ -72,9 +89,14 @@ RESPONSIVE TABLETTE
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+    .flex-nowrap-tab {
+        flex-wrap: nowrap;
+    }
+
     .width-100percent-tab {
         width: 100%;
     }
+
 }
 
 
