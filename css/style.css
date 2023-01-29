@@ -12,6 +12,15 @@
     --dblue: #0065fc;
 }
 
+
+/* BODY : STYLISATION DE LA POLICE, LARGEUR MAX */
+body {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    font-family: Raleway;
+}
+
 /* CONFIGURATION TEMPORAIRE DE LA TAILLE DES IMAGES */
 img {
     width: 150px;
