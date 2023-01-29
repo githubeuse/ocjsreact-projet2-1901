@@ -27,3 +27,17 @@ img {
     height: 150px;
     object-fit: contain;
 }
+
+/* flex flex-row flex-spacebetween flex-column-mob */
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-spacebetween {
+    justify-content: space-between;
+}
