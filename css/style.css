@@ -12,3 +12,9 @@
     --dblue: #0065fc;
 }
 
+/* CONFIGURATION TEMPORAIRE DE LA TAILLE DES IMAGES */
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
