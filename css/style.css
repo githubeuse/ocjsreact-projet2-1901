@@ -27,6 +27,13 @@ img {
     object-fit: contain;
 }
 
+.blueico{
+    color:var(--dblue);
+}
+
+.greyico{
+    color:var(--grey);
+}
 
 .flex-row {
     display: flex;
