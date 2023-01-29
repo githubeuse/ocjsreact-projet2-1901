@@ -59,6 +59,10 @@ img {
 }
 
 
+/* STYLISATION DE LA LISTE NON ORDONNEE */
+ul {
+    padding-inline-start: 0px;
+}
 
 /* STYLISATION DE LA LISTE NON ORDONNEE ET DE SES ELEMENTS */
 ul li {
