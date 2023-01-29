@@ -55,9 +55,10 @@ img {
     justify-content: flex-start;
 }
 
-.flex-evenly{
+.flex-evenly {
     justify-content: space-evenly;
 }
+
 .flex-baseline {
     align-items: baseline;
 }
@@ -188,7 +189,6 @@ RESPONSIVE TABLETTE
 */
 
 @media screen and (max-width: 992px) {
-
     .flex-row-tab {
         flex-direction: row;
     }
@@ -225,10 +225,16 @@ RESPONSIVE MOBILE
 */
 @media screen and (max-width: 768px) {
 
+
+    article {
+        width: 90%;
+    }
+
     .flex-column-mob {
         flex-direction: column;
     }
-    .flex-columnreverse-tab {
+
+    .flex-columnreverse-mob {
         flex-direction: column-reverse;
     }
 
@@ -246,8 +252,9 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
-    nogap-mob {
-        gap: 0px;
+
+    .nobg-mob {
+        background-color: transparent;
     }
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
