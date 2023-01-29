@@ -57,6 +57,27 @@ img {
 
 
 
+
+/*
++++++++++++++++++++++++
+RESPONSIVE TABLETTE
+RESPONSIVE TABLETTE
+RESPONSIVE TABLETTE
++++++++++++++++++++++++
+*/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .width-100percent-tab {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
 /*
 +++++++++++++++++++++++
 RESPONSIVE MOBILE
