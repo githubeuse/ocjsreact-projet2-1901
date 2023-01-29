@@ -184,7 +184,10 @@ header input[type=submit] {
 }
 
 header>div:nth-child(3) i {
-    color: red;
+    background-color: var(--grey);
+    padding: 17px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 
