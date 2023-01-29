@@ -37,6 +37,10 @@ img {
     flex-direction: row;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .flex-spacebetween {
     justify-content: space-between;
 }
@@ -118,6 +122,10 @@ RESPONSIVE TABLETTE
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+    .flex-row-tab {
+        flex-direction: row;
+    }
+
     .flex-nowrap-tab {
         flex-wrap: nowrap;
     }
@@ -125,6 +133,7 @@ RESPONSIVE TABLETTE
     .width-100percent-tab {
         width: 100%;
     }
+
 
 }
 
