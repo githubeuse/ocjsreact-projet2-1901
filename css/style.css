@@ -53,13 +53,13 @@ img {
     align-items: baseline;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
+.flex-nowrap {
+    flex-wrap: nowrap;
 }
 
 
-.width-60percent {
-    width: 60%;
+.width-70percent {
+    width: 70%;
 }
 
 
@@ -153,6 +153,10 @@ RESPONSIVE MOBILE
 
     .flex-column-mob {
         flex-direction: column;
+    }
+
+    .flex-wrap-mob {
+        flex-wrap: wrap;
     }
 
     .width-100percent-mob {
