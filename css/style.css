@@ -50,10 +50,9 @@ img {
 }
 
 
-.width60percent {
+.width-60percent {
     width: 60%;
 }
-
 
 
 
@@ -70,4 +69,11 @@ RESPONSIVE MOBILE
     .flex-column-mob {
         flex-direction: column;
     }
+
+    .width-100percent-mob {
+        width: 100%;
+    }
+
+
+
 }
