@@ -205,9 +205,14 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
+
+
     .width-90-tab {
         width: 90%;
-        margin: auto;
+    }
+
+    .width-92-tab {
+        width: 92%;
     }
 
     .width-100-tab {
@@ -230,10 +235,6 @@ RESPONSIVE MOBILE
 */
 @media screen and (max-width: 768px) {
 
-
-    article {
-        width: 90%;
-    }
 
     .flex-column-mob {
         flex-direction: column;
