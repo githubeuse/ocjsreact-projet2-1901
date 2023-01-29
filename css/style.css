@@ -91,6 +91,13 @@ button:active {
     background-color: var(--lblue);
 }
 
+
+/* STYLISATION DES FIGURES */
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 /* STYLISATION FORMULAIRE DE RECHERCHE */
 form input {
     border: 2px solid var(--grey);
