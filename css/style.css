@@ -153,7 +153,7 @@ RESPONSIVE TABLETTE
 +++++++++++++++++++++++
 */
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
     .flex-row-tab {
         flex-direction: row;
