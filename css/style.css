@@ -60,6 +60,11 @@ img {
 
 
 
+/* STYLISATION DE LA LISTE NON ORDONNEE ET DE SES ELEMENTS */
+ul li {
+    list-style: none;
+    margin-inline-start: 0px;
+}
 
 /* STYLISATION BOUTONS */
 button {
