@@ -42,6 +42,10 @@ img {
     justify-content: space-between;
 }
 
+.flex-baseline {
+    align-items: baseline;
+}
+
 
 
 /*
