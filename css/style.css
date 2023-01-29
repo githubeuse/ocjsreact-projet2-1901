@@ -55,8 +55,15 @@ img {
     justify-content: flex-start;
 }
 
+.flex-evenly{
+    justify-content: space-evenly;
+}
 .flex-baseline {
     align-items: baseline;
+}
+
+.flex-center {
+    align-items: center;
 }
 
 .flex-nowrap {
@@ -83,9 +90,6 @@ img {
     gap: 20px;
 }
 
-.gap150px {
-    gap: 150px;
-}
 
 .padding-rl-30px {
     padding: 10px 30px;
@@ -113,6 +117,12 @@ a:link,
 a:visited {
     color: black;
     text-decoration: none;
+}
+
+/* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
+li a:hover,
+li a:active {
+    color: var(--dblue);
 }
 
 /* STYLISATION BOUTONS */
@@ -236,7 +246,9 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
-
+    nogap-mob {
+        gap: 0px;
+    }
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     button {
