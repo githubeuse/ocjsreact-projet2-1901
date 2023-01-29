@@ -74,6 +74,10 @@ img {
     gap: 20px;
 }
 
+.gap150px {
+    gap: 150px;
+}
+
 .padding-rl-30px {
     padding: 10px 30px;
 }
