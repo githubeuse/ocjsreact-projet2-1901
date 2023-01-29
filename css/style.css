@@ -27,6 +27,8 @@ img {
     object-fit: contain;
 }
 
+
+
 .blueico {
     color: var(--dblue);
 }
@@ -104,6 +106,13 @@ ul {
 ul li {
     list-style: none;
     margin-inline-start: 0px;
+}
+
+/* STYLISATION LIENS AU SURVOL ET LORSQUE DEJA VISITES */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /* STYLISATION BOUTONS */
