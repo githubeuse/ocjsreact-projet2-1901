@@ -203,6 +203,7 @@ RESPONSIVE TABLETTE
 
     .width-90-tab {
         width: 90%;
+        margin: auto;
     }
 
     .width-100-tab {
@@ -246,6 +247,10 @@ RESPONSIVE MOBILE
 
     .width-100-mob {
         width: 100%;
+    }
+
+    .margin-auto-mob {
+        margin: auto;
     }
 
     .width-90-mob {
