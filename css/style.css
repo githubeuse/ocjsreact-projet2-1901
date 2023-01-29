@@ -48,6 +48,16 @@ img {
 .flex-baseline {
     align-items: baseline;
 }
+
+
+.width60percent {
+    width: 60%;
+}
+
+
+
+
+
 /*
 +++++++++++++++++++++++
 RESPONSIVE MOBILE
