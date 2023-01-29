@@ -54,6 +54,10 @@ img {
     flex-wrap: nowrap;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .width-90 {
     width: 90%;
 }
@@ -175,11 +179,6 @@ RESPONSIVE TABLETTE
         width: 100%;
     }
 
-
-
-    section article {
-        max-width: 150px;
-    }
 }
 
 
