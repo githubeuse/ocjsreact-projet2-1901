@@ -218,6 +218,9 @@ RESPONSIVE MOBILE
     .flex-column-mob {
         flex-direction: column;
     }
+    .flex-columnreverse-tab {
+        flex-direction: column-reverse;
+    }
 
     .flex-wrap-mob {
         flex-wrap: wrap;
