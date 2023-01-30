@@ -21,11 +21,10 @@ body {
 }
 
 /* CONFIGURATION TEMPORAIRE DE LA TAILLE DES IMAGES */
-img {
+/*img {
     width: 150px;
     height: 150px;
-    object-fit: contain;
-}
+}*/
 
 
 
@@ -104,6 +103,14 @@ img {
 .grey-bg {
     background-color: var(--grey);
 }
+
+
+image-top {
+    border-radius: 20px 20px 0 0;
+}
+
+
+
 
 
 /* STYLISATION DE LA LISTE NON ORDONNEE */
