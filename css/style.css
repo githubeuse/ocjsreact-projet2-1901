@@ -70,6 +70,10 @@ body {
     flex-wrap: nowrap;
 }
 
+.block {
+    display: block;
+}
+
 .width-100 {
     width: 100%;
 }
@@ -94,12 +98,15 @@ body {
     gap: 20px;
 }
 
+.gap10px {
+    gap: 10px;
+}
 
 .padding-rl-30px {
     padding: 10px 30px;
 }
 
-.no-padding{
+.no-padding {
     padding: 0px;
 }
 
@@ -111,20 +118,51 @@ body {
 
 .image-top {
     border-radius: 20px 20px 0 0;
-    width: 22vw;
-    max-width: 200px;
-    min-width: 150px;
-    height: 110px;
-    object-fit: cover;
+    width: 100%;
+    height: 110Px;
+    /*width: 20vw;*/
+    /*max-width: 220px;*/
+    /*min-width: 90px;*/
+    /*height: 110px;*/
+    /*object-fit: cover;*/
 }
 
+/* STYLISATION DES CARDS */
+.article-top {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+    width: 25%;
+    min-width: 180px;
+    max-width: 250px;
+    min-height: 220px;
+}
+
+
 .image-right {
-    height: 100%;
+    height: 250px;
     min-height: 150px;
-    max-height: 200px;
+    max-height: 160px;
     max-width: 90px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
+}
+
+/* STYLISATION DES CARDS */
+.article-right {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+    width: 100%;
+    min-width: 180px;
+    max-width: 250px;
+    min-height: 150px;
 }
 
 .image-bottom {
@@ -178,15 +216,6 @@ button:active {
 }
 
 
-/* STYLISATION DES CARDS */
-article {
-    background-color: white;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    margin-bottom: 15px;
-}
 
 /* STYLISATION DES FIGURES */
 figure {
