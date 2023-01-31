@@ -139,9 +139,10 @@ body {
 
 
 .image-right {
-    min-height: 25vh;
-    max-height: 30vh;
-    max-width: 10vw;
+    min-width: 10vw;
+    max-width: 11vw;
+    min-height: 170px;
+    max-height: 180px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
@@ -162,13 +163,21 @@ body {
 }
 
 .image-bottom {
-    width: 20vw;
-    height: 350px;
+    max-width: 20vw;
+    min-height: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 
-
+.article-bottom{
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
 
 /* STYLISATION DE LA LISTE NON ORDONNEE */
 ul {
