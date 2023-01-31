@@ -139,7 +139,8 @@ body {
 
 
 .image-right {
-    height: 205px;
+    min-height: 25vh;
+    max-height: 30vh;
     max-width: 10vw;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
@@ -154,10 +155,10 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin-bottom: 15px;
-    width: 100%;
+    /*width: 100%;
     min-width: 180px;
     max-width: 380px;
-    min-height: 150px;
+    min-height: 150px;*/
 }
 
 .image-bottom {
