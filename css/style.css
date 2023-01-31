@@ -129,10 +129,11 @@ body {
 
 .image-top {
     border-radius: 20px 20px 0 0;
-    width: 25vh;
-    min-width: 170px;
     height: 110px;
+    max-width: 25vw;
+    min-width: 15vw;
     object-fit: cover;
+
 }
 
 
