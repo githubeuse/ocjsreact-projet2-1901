@@ -139,10 +139,8 @@ body {
 
 
 .image-right {
-    height: 250px;
-    min-height: 150px;
-    max-height: 160px;
-    max-width: 90px;
+    height: 205px;
+    max-width: 10vw;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
@@ -151,6 +149,7 @@ body {
 .article-right {
     background-color: white;
     padding: 5px;
+    padding-bottom: 3px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
