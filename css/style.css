@@ -229,6 +229,10 @@ figure {
     margin: 0;
 }
 
+/* stylisation des figcaptions */
+figcaption {
+    padding: 5px;
+}
 
 /* STYLISATION FORMULAIRE DE RECHERCHE */
 form input {
