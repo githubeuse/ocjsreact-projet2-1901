@@ -192,6 +192,7 @@ body {
     white-space: nowrap;
 }
 
+
 h4 {
     margin-block-start: 5px;
     margin-block-end: 5px;
@@ -245,6 +246,7 @@ figure {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin: 0;
+    width: min-content;
 }
 
 /* stylisation des figcaptions */
