@@ -173,8 +173,9 @@ body {
 
 .image-bottom {
     max-width: 20vw;
-    height: 60vh;
-    max-height: 450px;
+    min-height: 25vh;
+    height: 50vh;
+    max-height: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -302,6 +303,9 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
+    .max-w-150-tab {
+        max-width: 150px;
+    }
 
 
     .width-90-tab {
@@ -317,6 +321,19 @@ RESPONSIVE TABLETTE
         width: 100%;
     }
 
+    .image-bottom {
+        height: 30vh;
+        max-height: 330px;
+    }
+
+
+    .image-bottom {
+        max-width: 20vw;
+        min-height: 200px;
+        max-height: 330px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
 }
 
 
