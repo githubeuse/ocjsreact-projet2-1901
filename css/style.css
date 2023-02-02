@@ -110,6 +110,7 @@ body {
     padding: 0px;
 }
 
+
 /* fond gris */
 .grey-bg {
     background-color: var(--grey);
@@ -134,19 +135,16 @@ body {
     border-radius: 20px 20px 0 0;
     height: 110px;
     max-width: 25vw;
-    min-width: 16vw;
+    min-width: 181px;
     object-fit: cover;
 
 }
 
-.minwidth-special {
-    min-width: 165px;
-}
 
 
 .image-right {
     min-width: 5vw;
-    max-width: 11vw;
+    max-width: 9vw;
     min-height: 170px;
     max-height: 180px;
     object-fit: cover;
@@ -169,6 +167,10 @@ body {
     min-height: 150px;*/
 }
 
+.min-w-110 {
+    min-width: 100px;
+}
+
 .image-bottom {
     max-width: 20vw;
     height: 60vh;
@@ -186,9 +188,13 @@ body {
     margin-bottom: 40px;
 }
 
-h4{
-margin-block-start: 5px;
-margin-block-end: 5px;
+.no-wrap {
+    white-space: nowrap;
+}
+
+h4 {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
 }
 
 /* STYLISATION DE LA LISTE NON ORDONNEE */
