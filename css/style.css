@@ -133,6 +133,10 @@ body {
     width: 25%;
 }
 
+.filter-min-width {
+    min-width: 643px;
+}
+
 
 /* STYLISATION DES CARDS EN HAUT DESKTOP*/
 .article-top {
@@ -359,6 +363,10 @@ RESPONSIVE TABLETTE
         width: 33%;
     }
 
+    .filter-min-width {
+        min-width: 90%;
+    }
+
     /*STYLISATION DES IMAGES EN HAUT */
     .image-top {
         width: 20vw;
@@ -409,6 +417,10 @@ RESPONSIVE MOBILE
     }
 
 
+
+    .flex-center-mob{
+        align-items:
+    }
 
     .width-100-mob {
         width: 100%;
