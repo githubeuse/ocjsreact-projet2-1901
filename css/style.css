@@ -120,8 +120,10 @@ body {
     background-color: var(--grey);
 }
 
-
-
+/* WIDTH DU MENU */
+.menu-width {
+    width: 25%;
+}
 
 
 /* STYLISATION DES CARDS EN HAUT DESKTOP*/
@@ -337,6 +339,10 @@ RESPONSIVE TABLETTE
         width: 100%;
     }
 
+    .menu-width {
+        width: 33%;
+    }
+
     /*STYLISATION DES IMAGES EN HAUT */
     .image-top {
         border-radius: 20px 20px 0 0;
@@ -399,6 +405,10 @@ RESPONSIVE MOBILE
 
     .width-90-mob {
         width: 90%;
+    }
+
+    .menu-width {
+        width: 100%;
     }
 
     .m-auto {
