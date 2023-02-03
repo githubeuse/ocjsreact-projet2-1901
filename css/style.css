@@ -211,8 +211,7 @@ body {
     margin-right: 5px;
 }
 
-.h4
-h4 {
+.h4-marginblock-5px {
     margin-block-start: 5px;
     margin-block-end: 5px;
 }
