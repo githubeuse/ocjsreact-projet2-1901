@@ -106,14 +106,20 @@ body {
 .no-padding {
     padding: 0px;
 }
-.padding-left-5px{
+
+.padding-left-5px {
     padding-left: 5px;
+}
+
+.line-height-2em {
+    line-height: 2em;
 }
 
 /* fond gris */
 .grey-bg {
     background-color: var(--grey);
 }
+
 
 
 
@@ -411,6 +417,11 @@ RESPONSIVE MOBILE
         padding: 6px 15px 6px 15px;
         font-size: 0.9em;
 
+    }
+
+    .image-right {
+        min-width: 39vw;
+        max-width: 40vw;
     }
 
 }
