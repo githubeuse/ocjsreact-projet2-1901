@@ -424,4 +424,12 @@ RESPONSIVE MOBILE
         max-width: 40vw;
     }
 
+    .image-top {
+        height: 25vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
 }
