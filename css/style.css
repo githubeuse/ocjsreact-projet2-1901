@@ -199,6 +199,12 @@ body {
     width: 100px;
     object-fit: cover;
 }
+.icone-info{
+border: 1px solid var(--grey);
+border-radius: 25px;
+padding: 10px 15px;
+margin-right: 5px;
+}
 
 h4 {
     margin-block-start: 5px;
