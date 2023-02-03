@@ -20,13 +20,10 @@ body {
     font-family: Raleway;
 }
 
-/* CONFIGURATION TEMPORAIRE DE LA TAILLE DES IMAGES */
-/*img {
-    width: 150px;
-    height: 150px;
-}*/
 
-
+.bold{
+    font-weight: 600;
+}
 
 .blueico {
     color: var(--dblue);
