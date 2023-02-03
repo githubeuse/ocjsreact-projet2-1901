@@ -111,6 +111,10 @@ body {
     padding-left: 5px;
 }
 
+.margintop-20px {
+    margin-top: 20px;
+}
+
 .line-height-2em {
     line-height: 2em;
 }
@@ -227,7 +231,7 @@ body {
     margin-inline-start: 0px;
 }
 
-/* STYLISATION LIENS AU SURVOL ET LORSQUE DEJA VISITES */
+/* STYLISATION LIENS ET LORSQUE DEJA VISITES */
 .link-black:link,
 .link-visited-black:visited {
     color: black;
@@ -235,10 +239,17 @@ body {
 }
 
 
+
 /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
 .link-hover-activate-blue:hover,
 .link-hover-activate-blue:active {
     color: var(--dblue);
+    border-top: 1px var(--dblue) solid;
+    transition: 0.1s;
+}
+
+.padding-nav-button {
+    padding: 30px 25px 25px 25px;
 }
 
 /* STYLISATION BOUTONS */
@@ -346,15 +357,14 @@ RESPONSIVE TABLETTE
     /*STYLISATION DES IMAGES EN HAUT */
     .image-top {
         border-radius: 20px 20px 0 0;
-        min-width: 25vw;
-        height: 110px;
+        width: 100%;
+        height: 30vh;
         object-fit: cover;
     }
 
     /* STYLISATION DES IMAGES EN BAS DESKTOP */
     .image-bottom {
-        max-width: 20vw;
-        height: 30vh;
+        height: 250px;
     }
 
     /*.image-bottom {
@@ -411,6 +421,10 @@ RESPONSIVE MOBILE
         width: 100%;
     }
 
+    .margintop-20px-mob {
+        margin-top: 20px;
+    }
+
     .m-auto {
         margin: auto;
     }
@@ -422,6 +436,19 @@ RESPONSIVE MOBILE
     .display-none-mob {
         display: none;
     }
+
+
+    .padding-nav-button {
+        padding: 25px 50px 25px 50px;
+    }
+    
+    /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
+    .link-hover-activate-blue:hover,
+    .link-hover-activate-blue:active {
+        border-bottom: 1px var(--dblue) solid;
+        border-top: 0px;
+
+
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     .button {
@@ -456,4 +483,4 @@ RESPONSIVE MOBILE
         max-width: 100%;
     }
 
-}
+    }
