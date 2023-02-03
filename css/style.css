@@ -21,7 +21,7 @@ body {
 }
 
 
-.bold{
+.bold {
     font-weight: 600;
 }
 
@@ -106,7 +106,9 @@ body {
 .no-padding {
     padding: 0px;
 }
-
+.padding-left-5px{
+    padding-left: 5px;
+}
 
 /* fond gris */
 .grey-bg {
@@ -192,15 +194,16 @@ body {
 
 
 
-.logo{
+.logo {
     width: 100px;
     object-fit: cover;
 }
-.icone-info{
-border: 1px solid var(--grey);
-border-radius: 25px;
-padding: 10px 15px;
-margin-right: 5px;
+
+.icone-info {
+    border: 1px solid var(--grey);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-right: 5px;
 }
 
 h4 {
