@@ -282,7 +282,7 @@ form input {
 }
 
 /* STYLISATION BOUTON DE RECHERCHE */
-header input[type=submit] {
+.input-search {
     background-color: var(--dblue);
     border: 0px;
     padding: 16px 10px;
@@ -291,7 +291,7 @@ header input[type=submit] {
     border-bottom-right-radius: 15px;
 }
 
-header>div:nth-child(3) i {
+.ico-gps {
     background-color: var(--grey);
     padding: 17px;
     border-top-left-radius: 15px;
@@ -415,7 +415,7 @@ RESPONSIVE MOBILE
 
     }
 
-    figure {
+    .figure {
         width: 100%;
     }
 
