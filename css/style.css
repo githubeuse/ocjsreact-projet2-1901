@@ -217,7 +217,7 @@ body {
 }
 
 /* STYLISATION DE LA LISTE NON ORDONNEE */
-ul {
+.ul-no-paddinginlinestart {
     padding-inline-start: 0px;
 }
 
