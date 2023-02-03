@@ -269,12 +269,12 @@ link-hover-activate-blue:active" */
 }
 
 /* stylisation des figcaptions */
-figcaption {
+.figcaption {
     padding: 5px;
 }
 
 /* STYLISATION FORMULAIRE DE RECHERCHE */
-form input {
+.input-email{
     border: 2px solid var(--grey);
     padding: 14px;
     font-family: Raleway;
