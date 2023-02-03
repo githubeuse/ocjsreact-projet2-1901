@@ -175,7 +175,7 @@ body {
 .image-bottom {
     max-width: 20vw;
     height: 60vh;
-    min-height: 30vh;
+    min-height: 20vh;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -232,8 +232,7 @@ body {
     text-decoration: none;
 }
 
-/*class="link-black:link link-visited-black:visited link-hover-activate-blue:hover,
-link-hover-activate-blue:active" */
+
 /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
 .link-hover-activate-blue:hover,
 .link-hover-activate-blue:active {
@@ -346,6 +345,11 @@ RESPONSIVE TABLETTE
         object-fit: cover;
     }
 
+    /* STYLISATION DES IMAGES EN BAS DESKTOP */
+    .image-bottom {
+        max-width: 20vw;
+        height: 30vh;
+    }
 
     /*.image-bottom {
         max-width: 20vw;
