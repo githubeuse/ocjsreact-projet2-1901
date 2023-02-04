@@ -33,6 +33,10 @@ body {
     color: var(--grey);
 }
 
+.whiteico{
+    color: white;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -70,6 +74,11 @@ body {
 .block {
     display: block;
 }
+
+.display-none{
+    display: none;
+}
+
 
 .width-100 {
     width: 100%;
@@ -344,6 +353,11 @@ RESPONSIVE TABLETTE
     .flex-nowrap-tab {
         flex-wrap: nowrap;
     }
+
+    .display-inline-mob{
+        display: inline;
+    }
+    
 
     .max-w-150-tab {
         max-width: 150px;
