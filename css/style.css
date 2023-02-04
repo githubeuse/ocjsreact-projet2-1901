@@ -438,9 +438,17 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
+    .input-email-width-mob {
+        min-width: 40px;
+        
+    }
+
+
     .menu-width {
         width: 100%;
     }
+
+
 
     .margintop-20px-mob {
         margin-top: 20px;
