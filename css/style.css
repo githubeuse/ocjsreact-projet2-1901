@@ -33,7 +33,7 @@ body {
     color: var(--grey);
 }
 
-.whiteico{
+.whiteico {
     color: white;
 }
 
@@ -75,7 +75,7 @@ body {
     display: block;
 }
 
-.display-none{
+.display-none {
     display: none;
 }
 
@@ -354,10 +354,10 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
-    .display-inline-mob{
+    .display-inline-mob {
         display: inline;
     }
-    
+
 
     .max-w-150-tab {
         max-width: 150px;
@@ -452,10 +452,6 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
-    .input-email-width-mob {
-        min-width: 40px;
-        
-    }
 
 
     .menu-width {
@@ -491,6 +487,12 @@ RESPONSIVE MOBILE
         border-bottom: 1px var(--dblue) solid;
         border-top: 0px;
 
+    }
+
+    /* STYLISATION FORMULAIRE DE RECHERCHE */
+    .input-email {
+        padding: 14px;
+        max-width: 50vw;
     }
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
