@@ -452,7 +452,9 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
-
+    .width-80-mob {
+        width: 80%;
+    }
 
     .menu-width {
         width: 100%;
@@ -491,9 +493,8 @@ RESPONSIVE MOBILE
 
     /* STYLISATION FORMULAIRE DE RECHERCHE */
     .input-email {
-        padding: 14px;
-        max-width: 50vw;
-    }
+        width: 60%;
+        max-width: 80%;
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     .button {
