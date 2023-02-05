@@ -362,6 +362,10 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
+    .flex-between-tab{
+        justify-content: space-between;
+    }
+
     .display-inline-mob {
         display: inline;
     }
