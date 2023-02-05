@@ -434,10 +434,8 @@ RESPONSIVE MOBILE
         flex-wrap: wrap;
     }
 
-
-
     .flex-center-mob {
-        align-items:
+        justify-content: center;
     }
 
     .width-100-mob {
@@ -495,6 +493,7 @@ RESPONSIVE MOBILE
     .input-email {
         width: 60%;
         max-width: 80%;
+    }
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     .button {
