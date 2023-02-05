@@ -225,7 +225,7 @@ body {
 
 /* STYLISATION LOGO*/
 .logo {
-    width: 100px;
+    width: 80px;
     object-fit: cover;
 }
 
@@ -235,6 +235,14 @@ body {
     border-radius: 25px;
     padding: 10px 15px;
     margin-right: 5px;
+}
+
+.h1{
+    font-size: 1.5em;
+}
+
+.h2{
+    font-size: 1.3em;
 }
 
 .h4-marginblock-5px {
@@ -398,13 +406,7 @@ RESPONSIVE TABLETTE
         height: 250px;
     }
 
-    /*.image-bottom {
-        max-width: 20vw;
-        min-height: 200px;
-        max-height: 330px;
-        object-fit: cover;
-        border-radius: 20px 20px 0 0;
-    }*/
+
 }
 
 
@@ -442,6 +444,14 @@ RESPONSIVE MOBILE
         width: 100%;
     }
 
+    .width-95-mob {
+        width: 95%;
+    }
+
+    .width-83-mob {
+        width: 83%;
+    }
+
     .width-92-mob {
         width: 92%;
     }
@@ -452,6 +462,11 @@ RESPONSIVE MOBILE
 
     .width-80-mob {
         width: 80%;
+    }
+
+    .margin-recherche-mob {
+        margin-left: 20px;
+        margin-right: 8px;
     }
 
     .menu-width {
@@ -489,10 +504,12 @@ RESPONSIVE MOBILE
 
     }
 
-    /* STYLISATION FORMULAIRE DE RECHERCHE */
-    .input-email {
-        width: 60%;
-        max-width: 80%;
+    .ico-gps {
+        padding: 12px;
+        padding-top: 17px;
+    }
+    .ico-loupe{
+        padding-right: 2px;
     }
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
