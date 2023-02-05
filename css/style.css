@@ -307,7 +307,7 @@ body {
 }
 
 /* STYLISATION FORMULAIRE DE RECHERCHE */
-.input-email {
+.input-search {
     border: 2px solid var(--grey);
     padding: 14px;
     font-family: Raleway;
@@ -315,7 +315,7 @@ body {
 }
 
 /* STYLISATION BOUTON DE RECHERCHE */
-.input-search {
+.button-search {
     background-color: var(--dblue);
     border: 0px;
     padding: 16px 10px;
