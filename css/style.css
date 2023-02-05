@@ -138,7 +138,7 @@ body {
     background-color: var(--grey);
 }
 
-.border-radius-20{
+.border-radius-20 {
     border-radius: 20px;
 }
 
@@ -147,7 +147,7 @@ body {
     width: 25%;
 }
 
-.ico-loupe{
+.ico-loupe {
     display: none;
 }
 
@@ -246,11 +246,11 @@ body {
     margin-right: 5px;
 }
 
-.h1{
+.h1 {
     font-size: 1.5em;
 }
 
-.h2{
+.h2 {
     font-size: 1.3em;
 }
 
@@ -376,7 +376,7 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
-    .flex-between-tab{
+    .flex-between-tab {
         justify-content: space-between;
     }
 
@@ -478,8 +478,13 @@ RESPONSIVE MOBILE
         width: 80%;
     }
 
+    .display-none-mob {
+        display: none;
+    }
+
+
     .margin-recherche-mob {
-        margin-left: 20px;
+        margin-left: 8px;
         margin-right: 8px;
     }
 
@@ -507,6 +512,10 @@ RESPONSIVE MOBILE
         padding: 25px 50px 25px 50px;
     }
 
+    .padding-rl-30px {
+        padding: 0;
+    }
+
     /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
     .link-hover-activate-blue:hover,
     .link-hover-activate-blue:active {
@@ -520,14 +529,15 @@ RESPONSIVE MOBILE
         padding-top: 17px;
     }
 
-    .rechercher{
+    .rechercher {
         display: none;
     }
-    .ico-loupe{
+
+    .ico-loupe {
         padding-right: 2px;
         display: inline;
-        }
-    
+    }
+
 
     /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
     .button {
@@ -538,7 +548,7 @@ RESPONSIVE MOBILE
         border: 2px solid var(--grey);
         padding: 6px 15px 6px 15px;
         font-size: 0.9em;
-        justify-content:flex-start;
+        justify-content: flex-start;
         gap: 5px;
     }
 
