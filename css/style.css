@@ -137,6 +137,10 @@ body {
     background-color: var(--grey);
 }
 
+.border-radius-20{
+    border-radius: 20px;
+}
+
 /* WIDTH DU MENU */
 .menu-width {
     width: 25%;
