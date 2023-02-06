@@ -20,143 +20,166 @@ body {
     font-family: Raleway;
 }
 
-
+/* CLASSE BOLD / GRAS */
 .bold {
     font-weight: 600;
 }
 
+/* CLASSE ICONE BLEUE */
 .blueico {
     color: var(--dblue);
 }
 
+/* CLASSE ICONE GRISE */
 .greyico {
     color: var(--grey);
 }
 
+/* CLASSE ICONE BLANCHE */
 .whiteico {
     color: white;
 }
 
+/* DISPLAY FLEX ROW / EN LIGNE */
 .flex-row {
     display: flex;
     flex-direction: row;
 }
 
+/* DISPLAY FLEX COLUMN / EN COLONNE */
 .flex-column {
     display: flex;
     flex-direction: column;
 }
 
+/* DISTRIBUTION HORIZONTALE DE L'ESPACE ENTRE LES ELEMENTS FLEX */
 .flex-spacebetween {
     justify-content: space-between;
 }
 
+/* ALIGNEMENT HORIZONTAL A GAUCHE / AU DEBUT DES ELEMENTS FLEX */
 .flex-start {
     justify-content: flex-start;
 }
 
+/* ESPACE ENTRE LES ELEMENTS FLEX EN COMPTANT LES MARGES EXTERIEURES */
 .flex-evenly {
     justify-content: space-evenly;
 }
 
+/* ALIGNEMENT VERTICAL SUR LA LIGNE D ECRITURE */
 .flex-baseline {
     align-items: baseline;
 }
 
+/* ALIGNEMENT VERTICAL AU MILIEU */
 .flex-center {
     align-items: center;
 }
 
+/* PAS DE RETOUR A LA LIGNE */
 .flex-nowrap {
     flex-wrap: nowrap;
 }
 
+/* DISPLAY BLOCK / OCCUPE TOUTE LA LIGNE */
 .block {
     display: block;
 }
 
+/* DISPLAY NONE / PAS D AFFICHAGE */
 .display-none {
     display: none;
 }
 
-
-
+/* LARGEUR A 100 % */
 .width-100 {
     width: 100%;
 }
 
+/* LARGEUR A 90% */
 .width-90 {
     width: 90%;
 }
 
+/* LARGEUR A 70% */
 .width-70 {
     width: 70%;
 }
 
+/* LARGEUR A 60% */
 .width-60 {
     width: 60%;
 }
 
+/* LARGEUR A 30% */
 .width-30 {
     width: 30%;
 }
 
+/* GAP DE 20 PX */
 .gap20px {
     gap: 20px;
 }
 
+/* GAP DE 10PX */
 .gap10px {
     gap: 10px;
 }
 
+/* PADDING GAUCHE ET DROITE DE 30PX */
 .padding-rl-30px {
     padding: 10px 30px;
 }
 
+/* PAS DE PADDING */
 .no-padding {
     padding: 0px;
 }
 
+/* PADDING GAUCHE DE 5 PX */
 .padding-left-5px {
     padding-left: 5px;
 }
 
+/* PADDING BAS DE 5 PX */
 .padding-bottom-5px {
     padding-bottom: 5px;
 }
 
+/* MARGE HAUTE DE 20 PX */
 .margintop-20px {
     margin-top: 20px;
 }
 
+/* MARGE HAUTE DE 40 PX */
 .margintop-40px {
     margin-top: 40px;
 }
 
+/* HAUTEUR DE LIGNE A 2 EM */
 .line-height-2em {
     line-height: 2em;
 }
 
-/* fond gris */
+/* ARRIERE PLAN DE COULEUR GRISE */
 .grey-bg {
     background-color: var(--grey);
 }
 
+/* BORDS ARRONDIS A 20PX */
 .border-radius-20 {
     border-radius: 20px;
 }
 
-/* WIDTH DU MENU */
-.menu-width {
-    width: 25%;
-}
 
 
-
+/* ICONE LOUPE */
 .ico-loupe {
     display: none;
 }
 
+/* LARGEUR MINIMALE DU FILTRE */
 .filter-min-width {
     min-width: 643px;
 }
@@ -174,7 +197,7 @@ body {
     padding-bottom: 10px;
 }
 
-/*STYLISATION DES IMAGES EN HAUT */
+/*STYLISATION DES IMAGES EN HAUT DESKTOP */
 .image-top {
     border-radius: 20px 20px 0 0;
     width: 17vw;
@@ -205,11 +228,12 @@ body {
     margin-bottom: 15px;
 }
 
+/* LARGEUR MINIMALE A 90PX */
 .min-w-90 {
     min-width: 90px;
 }
 
-
+/* LARGEUR MINIMALE A 100PX */
 .min-w-110 {
     min-width: 100px;
 }
@@ -233,6 +257,7 @@ body {
     margin-bottom: 40px;
 }
 
+/* PAS DE RETOUR A LA LIGNE */
 .no-wrap {
     white-space: nowrap;
 }
@@ -252,20 +277,23 @@ body {
     margin-right: 5px;
 }
 
+/* STYLISATION DES H1 */
 .h1 {
     font-size: 1.5em;
 }
 
+/* STYLISATION DES H2*/
 .h2 {
     font-size: 1.3em;
 }
 
+/* STYLISATION DES H4 */
 .h4-marginblock-5px {
     margin-block-start: 5px;
     margin-block-end: 5px;
 }
 
-/* STYLISATION DE LA LISTE NON ORDONNEE */
+/* STYLISATION DES LISTES NON ORDONNEES */
 .ul {
     padding-inline-start: 0px;
     list-style-type: none;
@@ -283,8 +311,6 @@ body {
     text-decoration: none;
 }
 
-
-
 /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
 .link-hover-activate-blue:hover,
 .link-hover-activate-blue:active {
@@ -293,6 +319,7 @@ body {
     transition: 0.1s;
 }
 
+/* GESTION DU PADDING DES BOUTONS DU MENU */
 .padding-nav-button {
     padding: 30px 25px 25px 25px;
 }
@@ -318,8 +345,6 @@ body {
     border-color: var(--grey);
     background-color: var(--lblue);
 }
-
-
 
 /* STYLISATION DES FIGURES */
 .figure {
@@ -352,6 +377,7 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+/* ICONE GPS */
 .ico-gps {
     background-color: var(--grey);
     padding: 17px;
@@ -370,45 +396,50 @@ RESPONSIVE TABLETTE
 */
 
 @media screen and (max-width: 992px) {
+
+    /* PASSAGE DU FLEX EN ROW / LIGNE EN TAB */
     .flex-row-tab {
         flex-direction: row;
     }
 
+    /* PASSAGE DU FLEX EN COLUMN / COLONNE EN TAB */
     .flex-column-tab {
         flex-direction: column;
     }
 
+    /* SUPPRESSION DE WRAP EN TAB */
     .flex-nowrap-tab {
         flex-wrap: nowrap;
     }
 
+    /* ESPACEMENT REGULIER ENTRE LES ELEMENTS FLEX EN TAB */
     .flex-between-tab {
         justify-content: space-between;
     }
 
-
+    /* LARGEUR MAXIMALE A 150 PX EN TAB */
     .max-w-150-tab {
         max-width: 150px;
     }
 
-
-    .width-90-tab {
-        width: 90%;
-    }
-
-
-    .width-92-tab {
-        width: 92%;
-    }
-
+    /* LARGEUR A 100% EN TAB*/
     .width-100-tab {
         width: 100%;
     }
 
-    .menu-width {
-        width: 33%;
+    /* LARGEUR A 90% EN TAB*/
+    .width-90-tab {
+        width: 90%;
     }
 
+    /* LARGEUR A 92% EN TAB */
+    .width-92-tab {
+        width: 92%;
+    }
+
+
+
+    /* STYLISATION DE LA LARGEUR DU FILTRE */
     .filter-min-width {
         min-width: 90%;
     }
@@ -420,7 +451,6 @@ RESPONSIVE TABLETTE
         height: 110px;
         object-fit: cover;
     }
-
 
     /* STYLISATION DES IMAGES EN BAS DESKTOP */
     .image-bottom {
@@ -442,119 +472,141 @@ RESPONSIVE MOBILE
 */
 @media screen and (max-width: 768px) {
 
-
+    /* PASSAGE EN FLEX COLUMN EN MOBILE / COLONNE */
     .flex-column-mob {
         flex-direction: column;
     }
 
+    /* PASSAGE EN FLEX COLUMN REVERSE EN MOBILE / COLONNE INVERSEE*/
     .flex-columnreverse-mob {
         flex-direction: column-reverse;
     }
 
+    /* MISE EN WRAP EN MOBILE */
     .flex-wrap-mob {
         flex-wrap: wrap;
     }
 
+    /* ALIGNEMENT HORIZONTAL DES ELEMENTS FLEX AU CENTRE */
     .flex-center-mob {
         justify-content: center;
     }
 
+    /* LARGEUR 100% EN MOBILE */
     .width-100-mob {
         width: 100%;
     }
 
+    /* LARGEUR 95% EN MOBILE */
     .width-95-mob {
         width: 95%;
     }
 
+    /* LARGEUR 83% EN MOBILE*/
     .width-83-mob {
         width: 83%;
     }
 
+    /* LARGEUR 92% EN MOBILE */
     .width-92-mob {
         width: 92%;
     }
 
+    /* LARGEUR 90% EN MOBILE */
     .width-90-mob {
         width: 90%;
     }
 
+    /* LARGEUR A 80% EN MOBILE*/
     .width-80-mob {
         width: 80%;
     }
 
-    .width-50-mob{
+    /* LARGEUR A 50% EN MOBILE */
+    .width-50-mob {
         width: 50%;
     }
-    
 
+
+    /* DISPLAY NONE / NON VISIBLE EN MOBILE */
     .display-none-mob {
         display: none;
     }
 
-
+    /* GESTION DE LA MARGE POUR LA RECHERCHE EN MOBILE */
     .margin-recherche-mob {
         margin-left: 8px;
         margin-right: 8px;
     }
 
+    /* STYLISATION DE LA LARGEUR DU MENU EN MOBILE */
     .menu-width {
         width: 100%;
     }
 
 
-
-    .li-border-mob{
+    /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU */
+    .li-border-mob {
         padding-bottom: 25px;
         border-bottom: 2px var(--grey) solid;
     }
 
+    /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU EN HOVER ET ACTIVE*/
+
     .li-border-mob a:hover,
-    .li-border-mob a:active{
+    .li-border-mob a:active {
         padding-bottom: 25px;
         border-bottom: 2px var(--dblue) solid;
     }
 
-
+    /* MARGE HAUTE DE 20PX EN MOBILE */
     .margintop-20px-mob {
         margin-top: 20px;
     }
 
+    /* MARGIN AUTO POUR CENTRER EN MOBILE */
     .m-auto {
         margin: auto;
     }
 
+    /* PAS D ARRIERE PLAN EN MOBILE */
     .nobg-mob {
         background-color: transparent;
     }
 
+    /* BORDS ARRONDIS SUPPRIMES EN MOBILE */
     .border-radius-0-mob {
         border-radius: 0px;
     }
 
+    /* PADDING POUR LES LIENS DE NAVIGATION DU MENU EN MOBILE*/
     .padding-nav-button {
         padding: 30px;
     }
 
-    .p-nav-btn-l{
-        padding-left:50px;
+    /* PADDING POUR LE BOUTON DE GAUCHE EN MOBILE */
+    .p-nav-btn-l {
+        padding-left: 50px;
         padding-right: 50px;
     }
 
-    .p-nav-btn-r{
-        padding-left:23px;
+    /* PADDING POUR LE BOUTON DE DROITE EN MOBILE */
+    .p-nav-btn-r {
+        padding-left: 23px;
         padding-right: 16px;
     }
 
+    /* MISE A ZERO DU PADDING GAUCHE ET DROITE 30PX EN MOBILE */
     .padding-rl-30px {
         padding: 0;
     }
 
-    .textalign-center-mob{
+    /* ALIGNEMENT DU TEXTE EN MOBILE*/
+    .textalign-center-mob {
         text-align: center;
     }
 
-    /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER*/
+    /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER, EN MOBILE*/
     .link-hover-activate-blue:hover,
     .link-hover-activate-blue:active {
         border-bottom: 0px var(--dblue) solid;
@@ -562,22 +614,25 @@ RESPONSIVE MOBILE
 
     }
 
+    /* ICONE GPS EN MOBILE */
     .ico-gps {
         padding: 12px;
         padding-top: 17px;
     }
 
+    /* STYLISATION DU MOT RECHERCHER EN MOBILE*/
     .rechercher {
         display: none;
     }
 
+    /* ICONE LOUPE EN MOBILE*/
     .ico-loupe {
         padding-right: 2px;
         display: inline;
     }
 
 
-    /* MOB STYLISATION BOUTON DANS HEADER LIGNE 4 */
+    /* STYLISATION BOUTON DANS HEADER LIGNE 4 EN MOBILE*/
     .button {
         width: 45%;
         min-width: 130px;
@@ -590,21 +645,25 @@ RESPONSIVE MOBILE
         gap: 5px;
     }
 
+    /* STYLISATION DE FIGURE EN MOBILE*/
     .figure {
         width: 100%;
     }
 
+    /* STYLISATION DES IMAGES DE DROITE EN MOBILE*/
     .image-right {
         min-width: 39vw;
         max-width: 40vw;
     }
 
+    /* STYLISATION DES IMAGES DU HAUT EN MOBILE*/
     .image-top {
         height: 25vh;
         width: 100%;
         max-width: 100%;
     }
 
+    /* STYLISATION DES IMAGES DU BAS EN MOBILE*/
     .image-bottom {
         height: 25vh;
         width: 100%;
