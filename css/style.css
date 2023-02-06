@@ -528,6 +528,9 @@ RESPONSIVE MOBILE
         background-color: transparent;
     }
 
+    .border-radius-0-mob {
+        border-radius: 0px;
+    }
 
     .padding-nav-button {
         padding: 30px;
