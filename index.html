@@ -32,7 +32,7 @@
     -->
 
 
-    <header class="width-100 margintop-20px">
+    <header class="width-100 margintop-40px">
         <!--LIGNE 1 : Logo + menu-->
         <div class=" flex-row flex-spacebetween flex-center flex-column-mob">
             <img src="images/logo/logo_booki.png" alt="Logo" class="logo margintop-20px-mob">
@@ -40,22 +40,22 @@
                 <nav>
                     <ul class="flex-row flex-evenly ul menu-width textalign-center-mob">
                         <li class="li width-50-mob li-border-mob"><a
-                                class=" link-black link-visited-black link-hover-activate-blue link-hover-activate-blue padding-nav-button p-nav-btn-l"
-                                href="#activites">Activités</a></li>
-                        <li class="li width-50-mob li-border-mob"><a
                                 class="link-black link-visited-black link-hover-activate-blue link-hover-activate-blue padding-nav-button p-nav-btn-r"
                                 href="#hebergements">Hébergements</a></li>
+                        <li class="li width-50-mob li-border-mob"><a
+                                class=" link-black link-visited-black link-hover-activate-blue link-hover-activate-blue padding-nav-button p-nav-btn-l"
+                                href="#activites">Activités</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
         <!--LIGNE 2 : H1 + H2 -->
-        <div class="width-90-mob m-auto">
+        <div class="width-90-mob m-auto margintop-40px">
             <h1 class="h1">Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2 class="h2">En plein centre-ville ou en pleine nature</h2>
         </div>
         <!--LIGNE 3 : Formulaire de recherche -->
-        <div class="width-70 flex-row flex-start flex-center-mob width-95-mob margin-recherche-mob">
+        <div class=" font-size-1dot1em width-70 flex-row flex-start flex-center-mob width-95-mob margin-recherche-mob">
             <i class="fa-solid fa-location-dot ico-gps"></i>
             <form action="/action_page.php" method="post" id="site-search" class="width-100-mob">
                 <input type="search" id="site-search" name="site-search" placeholder="Marseille, France"
@@ -69,15 +69,16 @@
             </form>
         </div>
         <!--LIGNE 4 : Filtres-->
-        <div class=" flex-row flex-start flex-baseline margintop-20px gap20px flex-column-mob width-90-mob m-auto">
+        <div
+            class=" font-size-1dot1em flex-row flex-start flex-baseline margintop-20px gap20px flex-column-mob width-90-mob m-auto">
             <p class="bold">Filtres</p>
-            <div class="flex-row flex-spacebetween flex-nowrap width-60 filter-min-width width-100-tab flex-wrap-mob">
-                <button class="button"> <i class="fa-solid fa-money-bill-wave blueico"></i>
+            <div class="width-100 flex-row flex-spacebetween flex-nowrap filter-min-width width-100-tab flex-wrap-mob">
+                <button class="button"> <i class="fa-solid fa-money-bill-wave big-blueico"></i>
                     <span>Economique</span></button>
-                <button class="button"><i class="fa-solid fa-child-dress blueico"></i>
+                <button class="button"><i class="fa-solid fa-child-dress big-blueico"></i>
                     <span>Familial</span></button>
-                <button class="button"> <i class="fa-solid fa-heart blueico"></i><span>Romantique</span></button>
-                <button class="button"> <i class="fa-solid fa-dog blueico"></i>
+                <button class="button"> <i class="fa-solid fa-heart big-blueico"></i><span>Romantique</span></button>
+                <button class="button"> <i class="fa-solid fa-dog big-blueico"></i>
                     <span>Animaux autorisés</span>
                 </button>
             </div>
@@ -85,32 +86,26 @@
     </header>
     <main>
         <!--NOMBRE DE RESULTATS DE RECHERCHE-->
-        <div class=" flex-row flex-start flex-baseline width-90-mob m-auto">
+        <div class="margintop-20px flex-row flex-start flex-baseline width-90-mob m-auto">
             <i class="fa-solid fa-info blueico icone-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
-        <!--
-        |||||||||||||||||||||||||||||||||||||||||||||
-        DECOUPAGE DE LA ZONE HEBERGEMENT
-        |||||||||||||||||||||||||||||||||||||||||||||
-        HEBERBEMENT PARTIE GAUCHE => A  : HEBERGEMENT A MARSEILLE
-        HEBERGEMENT PARTIE B : LES PLUS POPULAIRES -->
 
-        <!--CONTAINER HEBERGEMENT : A et B-->
-        <div class="flex-row flex-spacebetween gap10px width-100 flex-column-tab flex-columnreverse-mob">
+        <!--CONTAINER HEBERGEMENT : GAUCHE ET DROITE-->
+        <div class="margintop-20px flex-row flex-spacebetween gap30px width-100 flex-column-tab flex-columnreverse-mob">
 
             <!--HEBERBEMENT PARTIE GAUCHE : HEBERGEMENT A MARSEILLE-->
             <section id="hebergements"
-                class=" grey-bg border-radius-20 padding-rl-30px width-70 width-92-tab width-92-mob m-auto nobg-mob">
-                <h3>Hébergements à Marseille</h3>
+                class=" grey-bg border-radius-20 padding-rl-30px width-60 width-92-tab width-92-mob m-auto nobg-mob">
+                <h3 class="h3 margintop-40px">Hébergements à Marseille</h3>
                 <div class=" flex-row flex-spacebetween flex-column-mob width-100">
                     <a class="link-black link-visited-black" href="#">
                         <article class="article-top no-wrap">
                             <img src="images/hebergements/2_large/auberge_canebiere.jpg" alt="Auberge Canebiere"
                                 class="image-top">
                             <h4 class="h4-marginblock-5px">Auberge La Canebière</h4>
-                            <p>Nuit à partir de 25<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 25<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
@@ -120,7 +115,7 @@
                         <article class="article-top">
                             <img src="images/hebergements/2_large/hotel_port.jpg" alt="Hotel Port" class="image-top">
                             <h4 class="h4-marginblock-5px">Hôtel du Port</h4>
-                            <p>Nuit à partir de 52<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 52<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
@@ -131,19 +126,19 @@
                             <img src="images/hebergements/2_large/hotel_mouette.jpg" alt="Hotel Mouette"
                                 class="image-top">
                             <h4 class="h4-marginblock-5px">Hôtel Les Mouettes</h4>
-                            <p>Nuit à partir de 76<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 76<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
                         </article>
                     </a>
                 </div>
-                <div class="flex-row flex-spacebetween flex-column-mob width-100">
+                <div class="padding-top-20px flex-row flex-spacebetween flex-column-mob width-100">
                     <a class="link-black link-visited-black" href="#">
                         <article class="article-top">
                             <img src="images/hebergements/2_large/hotel_mer.jpg" alt="Hotel Mer" class="image-top">
                             <h4 class="h4-marginblock-5px">Hôtel de la mer</h4>
-                            <p>Nuit à partir de 46<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 46<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
@@ -154,7 +149,7 @@
                             <img src="images/hebergements/2_large/auberge_panier.jpg" alt="Auberge Panier"
                                 class="image-top">
                             <h4 class="h4-marginblock-5px">Auberge Le Panier</h4>
-                            <p>Nuit à partir de 23<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 23<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
@@ -164,7 +159,7 @@
                         <article class="article-top">
                             <img src="images/hebergements/2_large/hotel_amina.jpg" alt="Hotel Amina" class="image-top">
                             <h4 class="h4-marginblock-5px">Hôtel Chez Amina</h4>
-                            <p>Nuit à partir de 96<b>€</b></p>
+                            <p class="p-margin-0dot5em">Nuit à partir de 96<b>€</b></p>
                             <i class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                 class="fa-solid fa-star greyico"></i>
@@ -175,10 +170,11 @@
             </section>
 
             <!--HEBERGEMENT B PARTIE DROITE : LES PLUS POPULAIRES-->
-            <aside class="grey-bg border-radius-20 padding-rl-30px width-30 width-92-tab width-100-mob border-radius-0-mob">
-                <div class="flex-row flex-baseline flex-between-tab gap20px width-90-mob m-auto">
-                    <h3>Les plus populaires</h3>
-                    <i class="fa-solid fa-chart-line blueico"></i>
+            <aside
+                class="grey-bg border-radius-20 padding-rl-30px width-25 width-92-tab width-100-mob border-radius-0-mob">
+                <div class="flex-row flex-baseline flex-spacebetween gap20px width-90-mob m-auto">
+                    <h3 class="h3 margintop-40px">Les plus populaires</h3>
+                    <i class="fa-solid fa-chart-line big-blueico"></i>
                 </div>
                 <div class=" flex-column flex-spacebetween flex-row-tab flex-column-mob width-90-mob m-auto ">
                     <a class="link-black link-visited-black" href="#">
@@ -188,10 +184,13 @@
                                     class="image-right">
 
                             </div>
-                            <div class="min-w-110 max-w-150-tab padding-left-5px flex-column flex-spacebetween">
-                                <h4 class="h4-marginblock-5px">Hôtel Le soleil du matin</h4>
-                                <p>Nuit à partir de 128<b>€</b></p>
-                                <div class="padding-bottom-5px"><i class="fa-solid fa-star blueico"></i><i
+                            <div
+                                class="min-w-110 max-w-150-tab padding-inside-article-right flex-column flex-spacebetween">
+                                <div>
+                                    <h4 class="h4-marginblock-5px">Hôtel Le soleil du matin</h4>
+                                    <p>Nuit à partir de 128<b>€</b></p>
+                                </div>
+                                <div class="padding-bottom-2px"><i class="fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star greyico"></i>
                                 </div>
@@ -204,9 +203,12 @@
                                 <img src="images/hebergements/2_large/chambre_coeur.jpg" alt="Chambre Coeur"
                                     class="image-right">
                             </div>
-                            <div class="min-w-110 max-w-150-tab padding-left-5px flex-column flex-spacebetween">
-                                <h4 class="h4-marginblock-5px">Chambres d'hôtes Au coeur de l'eau</h4>
-                                <p>Nuit à partir de 96<b>€</b></p>
+                            <div
+                                class="min-w-110 max-w-150-tab  padding-inside-article-right  flex-column flex-spacebetween">
+                                <div>
+                                    <h4 class="h4-marginblock-5px">Chambres d'hôtes Au coeur de l'eau</h4>
+                                    <p>Nuit à partir de 96<b>€</b></p>
+                                </div>
                                 <div class="padding-bottom-5px"><i class="fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star greyico"></i>
@@ -221,9 +223,12 @@
                                 <img src="images/hebergements/2_large/hotel_bleu.jpg" alt="Hotel Bleu"
                                     class="image-right">
                             </div>
-                            <div class="min-w-110 max-w-150-tab padding-left-5px flex-column flex-spacebetween">
-                                <h4 class="h4-marginblock-5px">Hôtel Bleu et Blanc</h4>
-                                <p>Nuit à partir de 68<b>€</b></p>
+                            <div
+                                class="min-w-110 max-w-150-tab  padding-inside-article-right padding-left-5px flex-column flex-spacebetween">
+                                <div>
+                                    <h4 class="h4-marginblock-5px">Hôtel Bleu et Blanc</h4>
+                                    <p>Nuit à partir de 68<b>€</b></p>
+                                </div>
                                 <div class="padding-bottom-5px"><i class=" fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star blueico"></i><i
                                         class="fa-solid fa-star blueico"></i><i class="fa-solid fa-star greyico"></i>
@@ -236,7 +241,7 @@
             </aside>
         </div>
         <section id="activites" class="margintop-40px width-92-mob m-auto">
-            <h3>Activités à Marseille</h3>
+            <h3 class="h3  margintop-40px">Activités à Marseille</h3>
             <div class="flex-row flex-spacebetween flex-column-mob width-100">
                 <a class="link-black link-visited-black" href="#">
                     <article class="no-padding article-bottom">
@@ -287,27 +292,27 @@
             </div>
         </section>
     </main>
-    <footer class="grey-bg  padding-rl-30px flex-row flex-evenly flex-column-mob nogap-mob width-100-mob m-auto">
-        <div class="line-height-2em width-90-mob m-auto">
-            <h4>&#192; propos</h4>
-            <ul class="ul">
+    <footer class="margintop-40px grey-bg  flex-row flex-start gap15 flex-column-mob nogap-mob width-100-mob m-auto">
+        <div class="padding-left-footer padding-bottom-footer width-90-mob m-auto">
+            <h4 class="h4">&#192; propos</h4>
+            <ul class="ul line-height-2em">
                 <li class="li "><a class="link-black link-visited-black" href="#">Fonctionnement du site</a></li>
                 <li class="li "><a class="link-black link-visited-black" href="#">Conditions générales</a></li>
                 <li class="li "><a class="link-black link-visited-black" href="#">Données et confidentialité</a></li>
             </ul>
         </div>
 
-        <div class="line-height-2em width-90-mob m-auto">
-            <h4>Nos hébergements</h4>
-            <ul class="ul">
+        <div class="width-90-mob m-auto">
+            <h4 class="h4">Nos hébergements</h4>
+            <ul class="ul line-height-2em">
                 <li class="li "><a class="link-black link-visited-black" href="#">Charte qualité</a></li>
                 <li class="li "><a class="link-black link-visited-black" href="#">Proposer votre hôtel</a></li>
             </ul>
         </div>
 
-        <div class="line-height-2em width-90-mob m-auto">
-            <h4>Assistance</h4>
-            <ul class="ul">
+        <div class=" width-90-mob m-auto ">
+            <h4 class="h4">Assistance</h4>
+            <ul class="ul line-height-2em">
                 <li class="li"><a class="link-black link-visited-black" href="#">Centre d' aide</a>
                 </li>
                 <li class="li "><a class="link-black link-visited-black" href="#">Nous contacter</a>
