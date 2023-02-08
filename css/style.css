@@ -142,6 +142,9 @@ body {
     width: 25%;
 }
 
+.min-width-170px-tab{
+    min-width: 171px;
+}
 
 .width-btn-filter {
     width: 900px;
@@ -192,7 +195,7 @@ body {
     padding-left: 5px;
 }
 
-/* PADDING GAUCHE DE 20 PX */
+/* PADDING A L'INTERIEUR DE L'ARTICLE */
 .padding-inside-article-right {
     padding-top: 8px;
     padding-left: 12px;
@@ -204,6 +207,12 @@ body {
 /* PADDING BAS DE 5 PX */
 .padding-bottom-5px {
     padding-bottom: 5px;
+}
+
+
+/* PADDING GAUCHE DE 10 PX */
+.padding-left-10px {
+    padding-left: 10px;
 }
 
 .padding-bottom-footer {
@@ -281,8 +290,7 @@ body {
 .image-top {
     border-radius: 20px 20px 0 0;
     width: 17vw;
-    min-width: 170px;
-    max-width: 240px;
+    min-width: 150px;
     height: 110px;
     object-fit: cover;
 }
@@ -315,6 +323,10 @@ body {
 /* LARGEUR MINIMALE A 100PX */
 .min-w-110 {
     min-width: 100px;
+}
+
+.min-w-190 {
+    min-width: 190px;
 }
 
 /* STYLISATION DES IMAGES EN BAS DESKTOP */
@@ -367,7 +379,9 @@ body {
 .h2 {
     font-size: 1em;
     font-weight: normal;
-    margin-block-start: 0;
+    margin-block-start: 13px;
+    margin-block-end: 26px;
+
 }
 
 /* STYLISATION DES H3*/
@@ -376,7 +390,7 @@ body {
 }
 
 .h4 {
-    font-size: 1.1em;
+    font-size: 1.05em;
     margin-top: 50px;
 }
 
@@ -393,6 +407,10 @@ body {
 
 .font-size-1dot1em {
     font-size: 1.1em;
+}
+
+.font-size-1dot2em {
+    font-size: 1.2em;
 }
 
 
@@ -497,6 +515,7 @@ input::placeholder {
 
 
 
+
 /*
 +++++++++++++++++++++++
 RESPONSIVE TABLETTE
@@ -517,6 +536,10 @@ RESPONSIVE TABLETTE
         flex-direction: column;
     }
 
+    .flex-alignitems-center-tab {
+        align-items: center;
+    }
+
     /* SUPPRESSION DE WRAP EN TAB */
     .flex-nowrap-tab {
         flex-wrap: nowrap;
@@ -530,6 +553,10 @@ RESPONSIVE TABLETTE
     /* LARGEUR MAXIMALE A 150 PX EN TAB */
     .max-w-150-tab {
         max-width: 150px;
+    }
+
+    .max-w-110-tab {
+        max-width: 120px;
     }
 
     /* LARGEUR A 100% EN TAB*/
@@ -547,239 +574,315 @@ RESPONSIVE TABLETTE
         width: 92%;
     }
 
+    .min-width-img-top {
+        min-width: 190px
+    }
+
     /* STYLISATION DE LA LARGEUR DU FILTRE */
     .min-width-btn-filter {
         min-width: 90%;
+    }
 
 
-        .filter-min-width {
-            min-width: 90%;
-        }
-
-        /*STYLISATION DES IMAGES EN HAUT */
-        .image-top {
-            width: 35%;
-            max-width: 250px;
-            height: 110px;
-            object-fit: cover;
-        }
-
-        /* STYLISATION DES IMAGES EN BAS DESKTOP */
-        .image-bottom {
-            height: 250px;
-        }
+    .line-height-35px-tab {
+        line-height: 35px;
     }
 
 
 
+    .filter-min-width {
+        min-width: 90%;
+    }
+
+    .margin-top-70px-tab {
+        margin-top: 70px;
+    }
+
+    .margin-bottom-40px-tab {
+        margin-bottom: 40px;
+    }
+
+    .padding-top-40px-tab {
+        padding-top: 10px;
+    }
+
+    .padding-top-20px-tab {
+        padding-top: 20px;
+    }
+
+
+    .padding-bottom-20px-tab {
+        padding-bottom: 20px;
+    }
+
+    .gap8-tab {
+        gap: 8%;
+    }
+
+    .font-size-1dot1em-tab {
+        font-size: 0.9em;
+    }
+
+    .p {
+        font-size: 0.8em;
+    }
+
+    /*STYLISATION DES IMAGES EN HAUT EN TABLETTE*/
+    .image-top {
+        width: 25vw;
+        height: 110px;
+        object-fit: cover;
+    }
+
+    /*STYLISATION DES IMAGES A DROITE EN TABLETTE */
+    .image-right {
+        height: 135px;
+        width: 10vw;
+    }
+
+    /* PADDING A L'INTERIEUR DE L'ARTICLE */
+    .padding-inside-article-right {
+        padding-top: 0px;
+        padding-left: 12px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+
+
+    /* STYLISATION DES IMAGES EN BAS EN TABLETTE */
+    .image-bottom {
+        height: 220px;
+
+    }
+
+    /* stylisation des figcaptions */
+    .figcaption {
+        padding: 0px 10px 5px 20px;
+    }
+
+    .padding-bottom-footer {
+        padding-bottom: 30px;
+    }
+
+    .padding-left-footer {
+        padding-left: 80px;
+    }
+
+
+}
 
 
 
-    /*
+
+
+
+
+/*
 +++++++++++++++++++++++
 RESPONSIVE MOBILE
 RESPONSIVE MOBILE
 RESPONSIVE MOBILE
 +++++++++++++++++++++++
 */
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-        /* PASSAGE EN FLEX COLUMN EN MOBILE / COLONNE */
-        .flex-column-mob {
-            flex-direction: column;
-        }
+    /* PASSAGE EN FLEX COLUMN EN MOBILE / COLONNE */
+    .flex-column-mob {
+        flex-direction: column;
+    }
 
-        /* PASSAGE EN FLEX COLUMN REVERSE EN MOBILE / COLONNE INVERSEE*/
-        .flex-columnreverse-mob {
-            flex-direction: column-reverse;
-        }
+    /* PASSAGE EN FLEX COLUMN REVERSE EN MOBILE / COLONNE INVERSEE*/
+    .flex-columnreverse-mob {
+        flex-direction: column-reverse;
+    }
 
-        /* MISE EN WRAP EN MOBILE */
-        .flex-wrap-mob {
-            flex-wrap: wrap;
-        }
+    /* MISE EN WRAP EN MOBILE */
+    .flex-wrap-mob {
+        flex-wrap: wrap;
+    }
 
-        /* ALIGNEMENT HORIZONTAL DES ELEMENTS FLEX AU CENTRE */
-        .flex-center-mob {
-            justify-content: center;
-        }
+    /* ALIGNEMENT HORIZONTAL DES ELEMENTS FLEX AU CENTRE */
+    .flex-center-mob {
+        justify-content: center;
+    }
 
-        /* LARGEUR 100% EN MOBILE */
-        .width-100-mob {
-            width: 100%;
-        }
+    /* LARGEUR 100% EN MOBILE */
+    .width-100-mob {
+        width: 100%;
+    }
 
-        /* LARGEUR 95% EN MOBILE */
-        .width-95-mob {
-            width: 95%;
-        }
+    /* LARGEUR 95% EN MOBILE */
+    .width-95-mob {
+        width: 95%;
+    }
 
-        /* LARGEUR 83% EN MOBILE*/
-        .width-83-mob {
-            width: 83%;
-        }
+    /* LARGEUR 83% EN MOBILE*/
+    .width-83-mob {
+        width: 83%;
+    }
 
-        /* LARGEUR 92% EN MOBILE */
-        .width-92-mob {
-            width: 92%;
-        }
+    /* LARGEUR 92% EN MOBILE */
+    .width-92-mob {
+        width: 92%;
+    }
 
-        /* LARGEUR 90% EN MOBILE */
-        .width-90-mob {
-            width: 90%;
-        }
+    /* LARGEUR 90% EN MOBILE */
+    .width-90-mob {
+        width: 90%;
+    }
 
-        /* LARGEUR A 80% EN MOBILE*/
-        .width-80-mob {
-            width: 80%;
-        }
+    /* LARGEUR A 80% EN MOBILE*/
+    .width-80-mob {
+        width: 80%;
+    }
 
-        /* LARGEUR A 50% EN MOBILE */
-        .width-50-mob {
-            width: 50%;
-        }
-
-
-        /* DISPLAY NONE / NON VISIBLE EN MOBILE */
-        .display-none-mob {
-            display: none;
-        }
-
-        /* GESTION DE LA MARGE POUR LA RECHERCHE EN MOBILE */
-        .margin-recherche-mob {
-            margin-left: 8px;
-            margin-right: 8px;
-        }
-
-        /* STYLISATION DE LA LARGEUR DU MENU EN MOBILE */
-        .menu-width {
-            width: 100%;
-        }
+    /* LARGEUR A 50% EN MOBILE */
+    .width-50-mob {
+        width: 50%;
+    }
 
 
-        /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU */
-        .li-border-mob {
-            padding-bottom: 25px;
-            border-bottom: 2px var(--grey) solid;
-        }
+    /* DISPLAY NONE / NON VISIBLE EN MOBILE */
+    .display-none-mob {
+        display: none;
+    }
 
-        /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU EN HOVER ET ACTIVE*/
+    /* GESTION DE LA MARGE POUR LA RECHERCHE EN MOBILE */
+    .margin-recherche-mob {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 
-        .li-border-mob a:hover,
-        .li-border-mob a:active {
-            padding-bottom: 25px;
-            border-bottom: 2px var(--dblue) solid;
-        }
-
-        /* MARGE HAUTE DE 20PX EN MOBILE */
-        .margintop-20px-mob {
-            margin-top: 20px;
-        }
-
-        /* MARGIN AUTO POUR CENTRER EN MOBILE */
-        .m-auto {
-            margin: auto;
-        }
-
-        /* PAS D ARRIERE PLAN EN MOBILE */
-        .nobg-mob {
-            background-color: transparent;
-        }
-
-        /* BORDS ARRONDIS SUPPRIMES EN MOBILE */
-        .border-radius-0-mob {
-            border-radius: 0px;
-        }
-
-        /* PADDING POUR LES LIENS DE NAVIGATION DU MENU EN MOBILE*/
-        .padding-nav-button {
-            padding: 30px;
-        }
-
-        /* PADDING POUR LE BOUTON DE GAUCHE EN MOBILE */
-        .p-nav-btn-l {
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-
-        /* PADDING POUR LE BOUTON DE DROITE EN MOBILE */
-        .p-nav-btn-r {
-            padding-left: 23px;
-            padding-right: 16px;
-        }
-
-        /* MISE A ZERO DU PADDING GAUCHE ET DROITE 30PX EN MOBILE */
-        .padding-rl-30px {
-            padding: 0;
-        }
-
-        /* ALIGNEMENT DU TEXTE EN MOBILE*/
-        .textalign-center-mob {
-            text-align: center;
-        }
-
-        /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER, EN MOBILE*/
-        .link-hover-activate-blue:hover,
-        .link-hover-activate-blue:active {
-            border-bottom: 0px var(--dblue) solid;
-            border-top: 0px;
-
-        }
-
-        /* ICONE GPS EN MOBILE */
-        .ico-gps {
-            padding: 12px;
-            padding-top: 17px;
-        }
-
-        /* STYLISATION DU MOT RECHERCHER EN MOBILE*/
-        .rechercher {
-            display: none;
-        }
-
-        /* ICONE LOUPE EN MOBILE*/
-        .ico-loupe {
-            padding-right: 2px;
-            display: inline;
-        }
+    /* STYLISATION DE LA LARGEUR DU MENU EN MOBILE */
+    .menu-width {
+        width: 100%;
+    }
 
 
-        /* STYLISATION BOUTON DANS HEADER LIGNE 4 EN MOBILE*/
-        .button {
-            width: 45%;
-            min-width: 130px;
-            margin-bottom: 10px;
-            height: 50px;
-            border: 2px solid var(--grey);
-            padding: 6px 15px 6px 15px;
-            font-size: 0.9em;
-            justify-content: flex-start;
-            gap: 5px;
-        }
+    /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU */
+    .li-border-mob {
+        padding-bottom: 25px;
+        border-bottom: 2px var(--grey) solid;
+    }
 
-        /* STYLISATION DE FIGURE EN MOBILE*/
-        .figure {
-            width: 100%;
-        }
+    /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU EN HOVER ET ACTIVE*/
 
-        /* STYLISATION DES IMAGES DE DROITE EN MOBILE*/
-        .image-right {
-            min-width: 39vw;
-            max-width: 40vw;
-        }
+    .li-border-mob a:hover,
+    .li-border-mob a:active {
+        padding-bottom: 25px;
+        border-bottom: 2px var(--dblue) solid;
+    }
 
-        /* STYLISATION DES IMAGES DU HAUT EN MOBILE*/
-        .image-top {
-            height: 25vh;
-            width: 100%;
-            max-width: 100%;
-        }
+    /* MARGE HAUTE DE 20PX EN MOBILE */
+    .margintop-20px-mob {
+        margin-top: 20px;
+    }
 
-        /* STYLISATION DES IMAGES DU BAS EN MOBILE*/
-        .image-bottom {
-            height: 25vh;
-            width: 100%;
-            max-width: 100%;
-        }
+    /* MARGIN AUTO POUR CENTRER EN MOBILE */
+    .m-auto {
+        margin: auto;
+    }
+
+    /* PAS D ARRIERE PLAN EN MOBILE */
+    .nobg-mob {
+        background-color: transparent;
+    }
+
+    /* BORDS ARRONDIS SUPPRIMES EN MOBILE */
+    .border-radius-0-mob {
+        border-radius: 0px;
+    }
+
+    /* PADDING POUR LES LIENS DE NAVIGATION DU MENU EN MOBILE*/
+    .padding-nav-button {
+        padding: 30px;
+    }
+
+    /* PADDING POUR LE BOUTON DE GAUCHE EN MOBILE */
+    .p-nav-btn-l {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* PADDING POUR LE BOUTON DE DROITE EN MOBILE */
+    .p-nav-btn-r {
+        padding-left: 23px;
+        padding-right: 16px;
+    }
+
+    /* MISE A ZERO DU PADDING GAUCHE ET DROITE 30PX EN MOBILE */
+    .padding-rl-30px {
+        padding: 0;
+    }
+
+    /* ALIGNEMENT DU TEXTE EN MOBILE*/
+    .textalign-center-mob {
+        text-align: center;
+    }
+
+    /* STYLISATION DES LIENS HOVER ET ACTIVE DU MENU ET DU FOOTER, EN MOBILE*/
+    .link-hover-activate-blue:hover,
+    .link-hover-activate-blue:active {
+        border-bottom: 0px var(--dblue) solid;
+        border-top: 0px;
 
     }
+
+    /* ICONE GPS EN MOBILE */
+    .ico-gps {
+        padding: 12px;
+        padding-top: 17px;
+    }
+
+    /* STYLISATION DU MOT RECHERCHER EN MOBILE*/
+    .rechercher {
+        display: none;
+    }
+
+    /* ICONE LOUPE EN MOBILE*/
+    .ico-loupe {
+        padding-right: 2px;
+        display: inline;
+    }
+
+
+    /* STYLISATION BOUTON DANS HEADER LIGNE 4 EN MOBILE*/
+    .button {
+        width: 45%;
+        min-width: 130px;
+        margin-bottom: 10px;
+        height: 50px;
+        border: 2px solid var(--grey);
+        padding: 6px 15px 6px 15px;
+        font-size: 0.9em;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+
+    /* STYLISATION DE FIGURE EN MOBILE*/
+    .figure {
+        width: 100%;
+    }
+
+    /* STYLISATION DES IMAGES DE DROITE EN MOBILE*/
+    .image-right {
+        min-width: 39vw;
+        max-width: 40vw;
+    }
+
+    /* STYLISATION DES IMAGES DU HAUT EN MOBILE*/
+    .image-top {
+        height: 25vh;
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    /* STYLISATION DES IMAGES DU BAS EN MOBILE*/
+    .image-bottom {
+        height: 25vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
