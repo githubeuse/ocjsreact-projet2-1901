@@ -414,7 +414,6 @@ body {
 }
 
 
-
 /* STYLISATION DES LISTES NON ORDONNEES */
 .ul {
     padding-inline-start: 0px;
@@ -742,6 +741,25 @@ RESPONSIVE MOBILE
     }
 
 
+    .max-w-181px-mob{
+        max-width: 181px;
+    }
+
+
+    .width-130px-mob{
+        width: 130px;
+    }
+
+    .font-size-0dot8em-mob{
+        font-size: 0.8em;
+    }
+
+
+    .font-size-1em-mob{
+        font-size: 1.0em;
+    }
+    
+
     /* DISPLAY NONE / NON VISIBLE EN MOBILE */
     .display-none-mob {
         display: none;
@@ -778,10 +796,46 @@ RESPONSIVE MOBILE
         margin-top: 20px;
     }
 
+    /* MARGE HAUTE DE 30PX EN MOBILE */
+    .margintop-30px-mob {
+        margin-top: 30px;
+    }
+
+
+    /* MARGE HAUTE DE 40PX EN MOBILE */
+    .margin-top-40px-mob {
+        margin-top: 40px;
+    }
+
+    .margin-top-80px-mob{
+        margin-top: 80px;
+    }
+
+    .margin-top-0-mob{
+        margin-top: 0px;
+    }
+
+    .margin-bottom-5px-mob{
+        margin-bottom: 5px;
+    }
+
+
+
+    .margin-bottom-30px-mob{
+        margin-bottom: 30px;
+    }
+
     /* MARGIN AUTO POUR CENTRER EN MOBILE */
     .m-auto {
         margin: auto;
     }
+
+
+    .padding-top-0-mob{
+        padding-top: 0;
+    }
+
+
 
     /* PAS D ARRIERE PLAN EN MOBILE */
     .nobg-mob {
@@ -848,7 +902,7 @@ RESPONSIVE MOBILE
 
     /* STYLISATION BOUTON DANS HEADER LIGNE 4 EN MOBILE*/
     .button {
-        width: 45%;
+        width: 49.5%;
         min-width: 130px;
         margin-bottom: 10px;
         height: 50px;
@@ -866,23 +920,49 @@ RESPONSIVE MOBILE
 
     /* STYLISATION DES IMAGES DE DROITE EN MOBILE*/
     .image-right {
-        min-width: 39vw;
-        max-width: 40vw;
+        width: 30vw;
+        /*min-width: 39vw;
+        max-width: 40vw;*/
     }
 
     /* STYLISATION DES IMAGES DU HAUT EN MOBILE*/
     .image-top {
-        height: 25vh;
+        height: 12vh;
         width: 100%;
-        max-width: 100%;
-
+        min-width: 147px;
     }
 
     /* STYLISATION DES IMAGES DU BAS EN MOBILE*/
     .image-bottom {
-        height: 25vh;
+        height: 3vh;
         width: 100%;
         max-width: 100%;
+    }
+
+    .article-bottom{
+        margin-bottom: 20px;
+    }
+
+    .margin-bottom-40px-mob{
+        margin-bottom: 80px;
+    }
+
+
+    /* stylisation des figcaptions */
+    .figcaption {
+        padding: 0px 10px 0px 20px;
+    }
+
+    .line-height-35px-mob{
+        line-height: 35px;
+    }
+
+    .padding-bottom-footer {
+        padding-bottom: 0px;
+    }
+    
+    .padding-left-footer {
+        padding-left: 0px;
     }
 
 }
