@@ -142,7 +142,7 @@ body {
     width: 25%;
 }
 
-.min-width-170px-tab{
+.min-width-170px-tab {
     min-width: 171px;
 }
 
@@ -442,7 +442,7 @@ body {
 
 /* GESTION DU PADDING DES BOUTONS DU MENU */
 .padding-nav-button {
-    padding: 30px 25px 25px 25px;
+    padding: 53px 25px 25px 25px;
 }
 
 /* STYLISATION BOUTONS */
@@ -705,6 +705,14 @@ RESPONSIVE MOBILE
         justify-content: center;
     }
 
+    /* STYLISATION DES H2*/
+    .h2 {
+        margin-block-start: 6px;
+        margin-block-end: 26px;
+
+    }
+
+
     /* LARGEUR 100% EN MOBILE */
     .width-100-mob {
         width: 100%;
@@ -716,8 +724,8 @@ RESPONSIVE MOBILE
     }
 
     /* LARGEUR 83% EN MOBILE*/
-    .width-83-mob {
-        width: 83%;
+    .width-82-mob {
+        width: 82%;
     }
 
     /* LARGEUR 92% EN MOBILE */
@@ -741,28 +749,32 @@ RESPONSIVE MOBILE
     }
 
 
-    .max-w-181px-mob{
+    .max-w-181px-mob {
         max-width: 181px;
     }
 
 
-    .width-130px-mob{
+    .width-130px-mob {
         width: 130px;
     }
 
-    .font-size-0dot8em-mob{
-        font-size: 0.8em;
+    .font-size-0dot8em-mob {
+        font-size: 0.7em;
     }
 
 
-    .font-size-1em-mob{
+    .font-size-1em-mob {
         font-size: 1.0em;
     }
-    
+
 
     /* DISPLAY NONE / NON VISIBLE EN MOBILE */
     .display-none-mob {
         display: none;
+    }
+
+    .display-block-mob {
+        display: block;
     }
 
     /* GESTION DE LA MARGE POUR LA RECHERCHE EN MOBILE */
@@ -807,21 +819,31 @@ RESPONSIVE MOBILE
         margin-top: 40px;
     }
 
-    .margin-top-80px-mob{
+    .margin-top-80px-mob {
         margin-top: 80px;
     }
 
-    .margin-top-0-mob{
+    .margin-top-0-mob {
         margin-top: 0px;
     }
 
-    .margin-bottom-5px-mob{
+    .margin-bottom-0-mob {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-5px-mob {
         margin-bottom: 5px;
     }
 
+    .margin-bottom-15px-mob {
+        margin-bottom: 15px;
+    }
 
+    .margin-bottom-35px-mob {
+        margin-bottom: 35px;
+    }
 
-    .margin-bottom-30px-mob{
+    .margin-bottom-30px-mob {
         margin-bottom: 30px;
     }
 
@@ -831,7 +853,7 @@ RESPONSIVE MOBILE
     }
 
 
-    .padding-top-0-mob{
+    .padding-top-0-mob {
         padding-top: 0;
     }
 
@@ -869,6 +891,16 @@ RESPONSIVE MOBILE
         padding: 0;
     }
 
+    .gap5-mob {
+        gap: 5%;
+    }
+
+    .gap15px-mob {
+        gap: 15px;
+    }
+
+
+
     /* ALIGNEMENT DU TEXTE EN MOBILE*/
     .textalign-center-mob {
         text-align: center;
@@ -902,7 +934,7 @@ RESPONSIVE MOBILE
 
     /* STYLISATION BOUTON DANS HEADER LIGNE 4 EN MOBILE*/
     .button {
-        width: 49.5%;
+        width: 48.5%;
         min-width: 130px;
         margin-bottom: 10px;
         height: 50px;
@@ -921,29 +953,36 @@ RESPONSIVE MOBILE
     /* STYLISATION DES IMAGES DE DROITE EN MOBILE*/
     .image-right {
         width: 30vw;
+        height: 120px;
         /*min-width: 39vw;
         max-width: 40vw;*/
     }
 
+
+    .article-top {
+        margin-bottom: 10px;
+    }
+
     /* STYLISATION DES IMAGES DU HAUT EN MOBILE*/
     .image-top {
-        height: 12vh;
+        height: 14vh;
         width: 100%;
         min-width: 147px;
     }
 
     /* STYLISATION DES IMAGES DU BAS EN MOBILE*/
     .image-bottom {
-        height: 3vh;
+        height: 17vh;
+        min-height: 17vh;
         width: 100%;
         max-width: 100%;
     }
 
-    .article-bottom{
+    .article-bottom {
         margin-bottom: 20px;
     }
 
-    .margin-bottom-40px-mob{
+    .margin-bottom-40px-mob {
         margin-bottom: 80px;
     }
 
@@ -953,14 +992,14 @@ RESPONSIVE MOBILE
         padding: 0px 10px 0px 20px;
     }
 
-    .line-height-35px-mob{
+    .line-height-35px-mob {
         line-height: 35px;
     }
 
     .padding-bottom-footer {
         padding-bottom: 0px;
     }
-    
+
     .padding-left-footer {
         padding-left: 0px;
     }
