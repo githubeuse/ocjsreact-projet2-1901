@@ -42,11 +42,6 @@ body {
     font-size: 0.8em;
 }
 
-/* CLASSE ICONE BLANCHE */
-.whiteico {
-    color: white;
-}
-
 /* DISPLAY FLEX ROW / EN LIGNE */
 .flex-row {
     display: flex;
@@ -945,6 +940,7 @@ RESPONSIVE MOBILE
     .ico-loupe {
         padding-right: 2px;
         display: inline;
+        color: white;
     }
 
 
