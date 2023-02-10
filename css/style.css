@@ -89,12 +89,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-/* DISPLAY BLOCK / OCCUPE TOUTE LA LIGNE */
-.block {
-    display: block;
-}
-
 /* DISPLAY NONE / PAS D AFFICHAGE */
 .display-none {
     display: none;
@@ -105,9 +99,6 @@ body {
     width: 100%;
 }
 
-.width-89 {
-    width: 80%;
-}
 
 /* LARGEUR A 90% */
 .width-90 {
@@ -133,22 +124,27 @@ body {
     width: 30%;
 }
 
+/* LARGEUR A 25% */
 .width-25 {
     width: 25%;
 }
 
-.min-width-170px-tab {
+/* LARGEUR MINIMALE A 171PX - SPEFICIQUE A UNE IMAGE*/
+.min-width-171px {
     min-width: 171px;
 }
 
+/* LARGEUR DE LA ZONE DE BOUTONS FILTRES */
 .width-btn-filter {
     width: 900px;
 }
 
+/* LARGEUR MINIMALE DE LA ZONE DE BOUTONS FILTRES */
 .min-width-btn-filter {
     min-width: 695px
 }
 
+/* GAP DE 3OPX */
 .gap30px {
     gap: 30px;
 }
@@ -158,24 +154,17 @@ body {
     gap: 20px;
 }
 
-/* GAP DE 10PX */
-.gap10px {
-    gap: 10px;
-}
-
+/* GAP DE 15% */
 .gap15 {
     gap: 15%;
 }
 
-.gap5 {
-    gap: 5%;
-}
-
 /* PADDING GAUCHE ET DROITE DE 30PX */
-.padding-rl-30px {
+.padding-rl-40px {
     padding: 0 40px;
 }
 
+/* PADDING TOP DE 20 PX */
 .padding-top-20px {
     padding-top: 20px;
 }
@@ -210,10 +199,12 @@ body {
     padding-left: 10px;
 }
 
+/* PADDING BAS DU FOOTER */
 .padding-bottom-footer {
     padding-bottom: 30px;
 }
 
+/* PADDING GAUCHE DU FOOTER */
 .padding-left-footer {
     padding-left: 60px;
 }
@@ -228,18 +219,6 @@ body {
 .margintop-40px {
     margin-top: 40px;
 }
-
-.margintop-60px {
-    margin-top: 60px;
-}
-
-.margintop-80px {
-    margin-top: 80px;
-}
-
-
-
-
 
 /* HAUTEUR DE LIGNE A 2 EM */
 .line-height-2em {
@@ -265,7 +244,6 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
 
 /* ICONE LOUPE */
 .ico-loupe {
