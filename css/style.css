@@ -484,6 +484,7 @@ body {
     font-weight: 700;
 }
 
+/* COULEUR DU TEXTE A L INTERIEUR DU CHAMPS DE SAISIE */
 input::placeholder {
     color: #000000;
     opacity: 1;
@@ -541,16 +542,17 @@ RESPONSIVE TABLETTE
     }
 
     /* ESPACEMENT REGULIER ENTRE LES ELEMENTS FLEX EN TAB */
-    .flex-between-tab {
+    /*.flex-between-tab {
         justify-content: space-between;
-    }
+    }*/
 
     /* LARGEUR MAXIMALE A 150 PX EN TAB */
-    .max-w-150-tab {
+    /*.max-w-150-tab {
         max-width: 150px;
-    }
+    }*/
 
-    .max-w-110-tab {
+    /* LARGEUR MAXIMALE A 110PX EN TAB */
+    .max-w-120-tab {
         max-width: 120px;
     }
 
@@ -560,9 +562,9 @@ RESPONSIVE TABLETTE
     }
 
     /* LARGEUR A 90% EN TAB*/
-    .width-90-tab {
+    /*.width-90-tab {
         width: 90%;
-    }
+    }*/
 
     /* LARGEUR A 92% EN TAB */
     .width-92-tab {
@@ -570,24 +572,27 @@ RESPONSIVE TABLETTE
     }
 
     /* LARGEUR MINIMALE DES IMAGES DE LA SECTION HAUTE HEBERGEMNT EN TAB */
-    .min-width-img-top {
+    /*.min-width-img-top {
         min-width: 190px
-    }
+    }*/
 
     /* STYLISATION DE LA LARGEUR DU FILTRE EN TAB */
     .min-width-btn-filter {
         min-width: 90%;
     }
 
+
+    /* LARGEUR MINIMALE DE LA ZONE CONTENANT LES BOUTONS EN TAB */
+    /*.filter-min-width {
+        min-width: 90%;
+    }*/
+
     /* HAUTEUR DE LIGNE A 35PX EN TAB */
     .line-height-35px-tab {
         line-height: 35px;
     }
 
-    /* LARGEUR MINIMALE DE LA ZONE CONTENANT LES BOUTONS EN TAB */
-    .filter-min-width {
-        min-width: 90%;
-    }
+
 
     /* MARGE HAUTE A 70PX EN TAB*/
     .margin-top-70px-tab {
@@ -600,14 +605,14 @@ RESPONSIVE TABLETTE
     }
 
     /* PADDING TOP A 40PX EN TAB */
-    .padding-top-40px-tab {
+    /*.padding-top-40px-tab {
         padding-top: 10px;
-    }
+    }*/
 
     /* PADDING TOP A 20PX EN TAB */
-    .padding-top-20px-tab {
+    /*.padding-top-20px-tab {
         padding-top: 20px;
-    }
+    }*/
 
     /* PADDING BAS A 20 PX EN TAB*/
     .padding-bottom-20px-tab {
@@ -620,7 +625,7 @@ RESPONSIVE TABLETTE
     }
 
     /* GAP A 5PX EN TAB */
-    .gap0-tab {
+    .gap5-tab {
         gap: 5px;
     }
 
@@ -750,15 +755,14 @@ RESPONSIVE MOBILE
     }
 
     /* LARGEUR A 80% EN MOBILE*/
-    .width-80-mob {
+    /*.width-80-mob {
         width: 80%;
-    }
+    }*/
 
     /* LARGEUR A 50% EN MOBILE */
     .width-50-mob {
         width: 50%;
     }
-
 
     /* LARGEUR MAX A 181PX EN MOB */
     .max-w-181px-mob {
@@ -771,7 +775,7 @@ RESPONSIVE MOBILE
     }
 
     /* FONT SIZE A 0.8 EM EN MOB */
-    .font-size-0dot8em-mob {
+    .font-size-0dot7em-mob {
         font-size: 0.7em;
     }
 
@@ -912,10 +916,11 @@ RESPONSIVE MOBILE
         padding: 0;
     }
 
+    /*
     /* GAP DE 5 POURCENT EN MOBILE */
     .gap5-mob {
         gap: 5%;
-    }
+    }*/
 
     /* GAP DE 15PX EN MOBILE */
     .gap15px-mob {
