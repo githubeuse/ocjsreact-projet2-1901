@@ -261,6 +261,15 @@ body {
     border-radius: 20px;
 }
 
+/* STYLISATION BOUTON DE RECHERCHE */
+.input-button-search {
+    background-color: var(--dblue);
+    border: 0px;
+    padding: 16px 10px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 
 /* ICONE LOUPE */
@@ -588,7 +597,6 @@ RESPONSIVE TABLETTE
     }
 
 
-
     .filter-min-width {
         min-width: 90%;
     }
@@ -618,12 +626,20 @@ RESPONSIVE TABLETTE
         gap: 8%;
     }
 
+    .gap0-tab {
+        gap: 5px;
+    }
+
     .font-size-1dot1em-tab {
         font-size: 0.9em;
     }
 
     .p {
         font-size: 0.8em;
+    }
+
+    .button {
+        padding: 10px 12px 10px 12px;
     }
 
     /*STYLISATION DES IMAGES EN HAUT EN TABLETTE*/
