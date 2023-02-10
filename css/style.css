@@ -920,14 +920,12 @@ RESPONSIVE MOBILE
     /* GAP DE 5 POURCENT EN MOBILE */
     .gap5-mob {
         gap: 5%;
-    }*/
+    }
 
     /* GAP DE 15PX EN MOBILE */
     .gap15px-mob {
         gap: 15px;
     }
-
-
 
     /* ALIGNEMENT DU TEXTE AU CENTRE EN MOBILE*/
     .textalign-center-mob {
