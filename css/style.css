@@ -164,7 +164,6 @@ body {
     padding: 0 40px;
 }
 
-/* PADDING TOP DE 20 PX */
 .padding-top-20px {
     padding-top: 20px;
 }
@@ -199,12 +198,10 @@ body {
     padding-left: 10px;
 }
 
-/* PADDING BAS DU FOOTER */
 .padding-bottom-footer {
     padding-bottom: 30px;
 }
 
-/* PADDING GAUCHE DU FOOTER */
 .padding-left-footer {
     padding-left: 60px;
 }
@@ -219,6 +216,18 @@ body {
 .margintop-40px {
     margin-top: 40px;
 }
+
+.margintop-60px {
+    margin-top: 60px;
+}
+
+.margintop-80px {
+    margin-top: 80px;
+}
+
+
+
+
 
 /* HAUTEUR DE LIGNE A 2 EM */
 .line-height-2em {
@@ -244,6 +253,7 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
 
 /* ICONE LOUPE */
 .ico-loupe {
@@ -876,7 +886,7 @@ RESPONSIVE MOBILE
     }
 
     /* MISE A ZERO DU PADDING GAUCHE ET DROITE 30PX EN MOBILE */
-    .padding-rl-30px {
+    .padding-rl-40px {
         padding: 0;
     }
 
