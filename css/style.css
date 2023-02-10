@@ -381,26 +381,30 @@ body {
     font-size: 1.4em;
 }
 
+/* STYLISATION DES H4 DU FOOTER */
 .h4 {
     font-size: 1.05em;
     margin-top: 50px;
 }
 
-/* STYLISATION DES H4 */
+/* STYLISATION DES H4 EN DEHORS DE CEUX PRESENTS DANS LE FOOTER */
 .h4-marginblock-5px {
     margin-block-start: 5px;
     margin-block-end: 5px;
 }
 
+/* MARGIN BLOCK START ET END A 0.5EM */
 .p-margin-0dot5em {
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
 }
 
+/* FONT SIZE A 1.1EM */
 .font-size-1dot1em {
     font-size: 1.1em;
 }
 
+/* FONT SIZE A 1.2EM */
 .font-size-1dot2em {
     font-size: 1.2em;
 }
@@ -565,74 +569,84 @@ RESPONSIVE TABLETTE
         width: 92%;
     }
 
+    /* LARGEUR MINIMALE DES IMAGES DE LA SECTION HAUTE HEBERGEMNT EN TAB */
     .min-width-img-top {
         min-width: 190px
     }
 
-    /* STYLISATION DE LA LARGEUR DU FILTRE */
+    /* STYLISATION DE LA LARGEUR DU FILTRE EN TAB */
     .min-width-btn-filter {
         min-width: 90%;
     }
 
-
+    /* HAUTEUR DE LIGNE A 35PX EN TAB */
     .line-height-35px-tab {
         line-height: 35px;
     }
 
-
+    /* LARGEUR MINIMALE DE LA ZONE CONTENANT LES BOUTONS EN TAB */
     .filter-min-width {
         min-width: 90%;
     }
 
+    /* MARGE HAUTE A 70PX EN TAB*/
     .margin-top-70px-tab {
         margin-top: 70px;
     }
 
+    /* MARGE HAUTE A 40PX EN TAB */
     .margin-bottom-40px-tab {
         margin-bottom: 40px;
     }
 
+    /* PADDING TOP A 40PX EN TAB */
     .padding-top-40px-tab {
         padding-top: 10px;
     }
 
+    /* PADDING TOP A 20PX EN TAB */
     .padding-top-20px-tab {
         padding-top: 20px;
     }
 
-
+    /* PADDING BAS A 20 PX EN TAB*/
     .padding-bottom-20px-tab {
         padding-bottom: 20px;
     }
 
+    /* GAP A 8 POURCENT EN TAB*/
     .gap8-tab {
         gap: 8%;
     }
 
+    /* GAP A 5PX EN TAB */
     .gap0-tab {
         gap: 5px;
     }
 
+    /* FONT SIZE A 1.1EM  EN TAB*/
     .font-size-1dot1em-tab {
         font-size: 0.9em;
     }
 
+    /* TAILLE DES PARAGRAPHES A 0.8 EM EN TAB*/
     .p {
         font-size: 0.8em;
     }
 
+    /* PADDING DU BOUTON EN TAB */
     .button {
         padding: 10px 12px 10px 12px;
     }
 
-    /*STYLISATION DES IMAGES EN HAUT EN TABLETTE*/
+    /*STYLISATION DES IMAGES EN HAUT EN TABLETTE EN TAB*/
     .image-top {
         width: 25vw;
         height: 110px;
         object-fit: cover;
     }
 
-    /*STYLISATION DES IMAGES A DROITE EN TABLETTE */
+    /*STYLISATION DES IMAGES A DROITE EN TABLETTE EN TAB*/
     .image-right {
         height: 135px;
         width: 10vw;
@@ -653,25 +667,23 @@ RESPONSIVE TABLETTE
 
     }
 
-    /* stylisation des figcaptions */
+    /* STYLISATION DES FIGCAPTIONS */
     .figcaption {
         padding: 0px 10px 5px 20px;
     }
 
+    /* PADDING BAS DU FOOTER */
     .padding-bottom-footer {
         padding-bottom: 30px;
     }
 
+    /* PADDING GAUCHE DU FOOTER */
     .padding-left-footer {
         padding-left: 80px;
     }
 
 
 }
-
-
-
-
 
 
 
@@ -748,20 +760,22 @@ RESPONSIVE MOBILE
     }
 
 
+    /* LARGEUR MAX A 181PX EN MOB */
     .max-w-181px-mob {
         max-width: 181px;
     }
 
-
+    /* LARGEUR A 130PX EN MOB*/
     .width-130px-mob {
         width: 130px;
     }
 
+    /* FONT SIZE A 0.8 EM EN MOB */
     .font-size-0dot8em-mob {
         font-size: 0.7em;
     }
 
-
+    /* FONT SIZE A 1.1EM EN MOB */
     .font-size-1em-mob {
         font-size: 1.0em;
     }
@@ -772,6 +786,7 @@ RESPONSIVE MOBILE
         display: none;
     }
 
+    /* DISPLAY BLOCK EN MOBILE */
     .display-block-mob {
         display: block;
     }
@@ -818,30 +833,37 @@ RESPONSIVE MOBILE
         margin-top: 40px;
     }
 
+    /* MARGE HAUTE DE 80PX EN MOBILE */
     .margin-top-80px-mob {
         margin-top: 80px;
     }
 
+    /* MARGE HAUTE DE 0 EN MOBILE */
     .margin-top-0-mob {
         margin-top: 0px;
     }
 
+    /* MARGE BASSE DE 0 PX EN MOBILE */
     .margin-bottom-0-mob {
         margin-bottom: 0;
     }
 
+    /* MARGE BASSE DE 5 PX EN MOBILE */
     .margin-bottom-5px-mob {
         margin-bottom: 5px;
     }
 
+    /* MARGE BASSE DE 15 PX EN MOBILE */
     .margin-bottom-15px-mob {
         margin-bottom: 15px;
     }
 
+    /* MARGE BASSE DE 35 PX EN MOBILE */
     .margin-bottom-35px-mob {
         margin-bottom: 35px;
     }
 
+    /* MARGE BASSE DE 30 PX EN MOBILE */
     .margin-bottom-30px-mob {
         margin-bottom: 30px;
     }
@@ -851,7 +873,7 @@ RESPONSIVE MOBILE
         margin: auto;
     }
 
-
+    /* PADDING HAUT DE 0 PX EN MOBILE */
     .padding-top-0-mob {
         padding-top: 0;
     }
@@ -890,17 +912,19 @@ RESPONSIVE MOBILE
         padding: 0;
     }
 
+    /* GAP DE 5 POURCENT EN MOBILE */
     .gap5-mob {
         gap: 5%;
     }
 
+    /* GAP DE 15PX EN MOBILE */
     .gap15px-mob {
         gap: 15px;
     }
 
 
 
-    /* ALIGNEMENT DU TEXTE EN MOBILE*/
+    /* ALIGNEMENT DU TEXTE AU CENTRE EN MOBILE*/
     .textalign-center-mob {
         text-align: center;
     }
@@ -959,6 +983,7 @@ RESPONSIVE MOBILE
     }
 
 
+    /* STYLISATION DES ARTICLES TOP */
     .article-top {
         margin-bottom: 10px;
     }
@@ -978,10 +1003,12 @@ RESPONSIVE MOBILE
         max-width: 100%;
     }
 
+    /* STYLISATION DES ARTICLES BAS */
     .article-bottom {
         margin-bottom: 20px;
     }
 
+    /* MARGES BASSES A 80PX */
     .margin-bottom-40px-mob {
         margin-bottom: 80px;
     }
@@ -992,14 +1019,17 @@ RESPONSIVE MOBILE
         padding: 0px 10px 0px 20px;
     }
 
+    /* HAUTEUR DE LIGNE A 35PX EN MOBILE */
     .line-height-35px-mob {
         line-height: 35px;
     }
 
+    /* PADDING BAS DU FOOTER */
     .padding-bottom-footer {
         padding-bottom: 0px;
     }
 
+    /* PADDING GAUCHE DU FOOTER */
     .padding-left-footer {
         padding-left: 0px;
     }
