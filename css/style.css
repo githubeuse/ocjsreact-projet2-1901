@@ -42,6 +42,13 @@ body {
     font-size: 0.8em;
 }
 
+.hide {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+
 /* DISPLAY FLEX ROW / EN LIGNE */
 .flex-row {
     display: flex;
@@ -257,7 +264,8 @@ body {
 
 /* ICONE LOUPE */
 .ico-loupe {
-    display: none;
+    color: transparent;
+    font-size: 0;
 }
 
 /* LARGEUR MINIMALE DU FILTRE */
@@ -509,6 +517,9 @@ input::placeholder {
     border-bottom-left-radius: 15px;
 }
 
+.white-ico {
+    color: white;
+}
 
 
 
@@ -790,6 +801,7 @@ RESPONSIVE MOBILE
         display: none;
     }
 
+
     /* DISPLAY BLOCK EN MOBILE */
     .display-block-mob {
         display: block;
@@ -953,9 +965,8 @@ RESPONSIVE MOBILE
 
     /* ICONE LOUPE EN MOBILE*/
     .ico-loupe {
-        padding-right: 2px;
-        display: inline;
         color: white;
+        font-size: 18px;
     }
 
 
