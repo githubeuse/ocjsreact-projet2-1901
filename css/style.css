@@ -221,6 +221,11 @@ body {
     margin-top: 40px;
 }
 
+/* MARGE GAUCHE DIMINUEE DE 5 PX*/
+.margin-left-minus-5px{
+    margin-left: -5px;
+}
+
 /* HAUTEUR DE LIGNE A 2 EM */
 .line-height-2em {
     line-height: 2em;
