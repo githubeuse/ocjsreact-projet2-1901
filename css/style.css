@@ -42,11 +42,6 @@ body {
     font-size: 0.8em;
 }
 
-.hide {
-    position: absolute !important;
-    top: -9999px !important;
-    left: -9999px !important;
-}
 
 
 /* DISPLAY FLEX ROW / EN LIGNE */
@@ -205,10 +200,12 @@ body {
     padding-left: 10px;
 }
 
+/* PADDING BAS DE 60PX, utilisé pour footer */
 .padding-bottom-footer {
     padding-bottom: 30px;
 }
 
+/* PADDING GAUCHE DE 60PX, utilisé pour le footer */
 .padding-left-footer {
     padding-left: 60px;
 }
@@ -223,18 +220,6 @@ body {
 .margintop-40px {
     margin-top: 40px;
 }
-
-.margintop-60px {
-    margin-top: 60px;
-}
-
-.margintop-80px {
-    margin-top: 80px;
-}
-
-
-
-
 
 /* HAUTEUR DE LIGNE A 2 EM */
 .line-height-2em {
@@ -552,16 +537,6 @@ RESPONSIVE TABLETTE
         flex-wrap: nowrap;
     }
 
-    /* ESPACEMENT REGULIER ENTRE LES ELEMENTS FLEX EN TAB */
-    /*.flex-between-tab {
-        justify-content: space-between;
-    }*/
-
-    /* LARGEUR MAXIMALE A 150 PX EN TAB */
-    /*.max-w-150-tab {
-        max-width: 150px;
-    }*/
-
     /* LARGEUR MAXIMALE A 110PX EN TAB */
     .max-w-120-tab {
         max-width: 120px;
@@ -572,38 +547,20 @@ RESPONSIVE TABLETTE
         width: 100%;
     }
 
-    /* LARGEUR A 90% EN TAB*/
-    /*.width-90-tab {
-        width: 90%;
-    }*/
-
     /* LARGEUR A 92% EN TAB */
     .width-92-tab {
         width: 92%;
     }
-
-    /* LARGEUR MINIMALE DES IMAGES DE LA SECTION HAUTE HEBERGEMNT EN TAB */
-    /*.min-width-img-top {
-        min-width: 190px
-    }*/
 
     /* STYLISATION DE LA LARGEUR DU FILTRE EN TAB */
     .min-width-btn-filter {
         min-width: 90%;
     }
 
-
-    /* LARGEUR MINIMALE DE LA ZONE CONTENANT LES BOUTONS EN TAB */
-    /*.filter-min-width {
-        min-width: 90%;
-    }*/
-
     /* HAUTEUR DE LIGNE A 35PX EN TAB */
     .line-height-35px-tab {
         line-height: 35px;
     }
-
-
 
     /* MARGE HAUTE A 70PX EN TAB*/
     .margin-top-70px-tab {
@@ -614,16 +571,6 @@ RESPONSIVE TABLETTE
     .margin-bottom-40px-tab {
         margin-bottom: 40px;
     }
-
-    /* PADDING TOP A 40PX EN TAB */
-    /*.padding-top-40px-tab {
-        padding-top: 10px;
-    }*/
-
-    /* PADDING TOP A 20PX EN TAB */
-    /*.padding-top-20px-tab {
-        padding-top: 20px;
-    }*/
 
     /* PADDING BAS A 20 PX EN TAB*/
     .padding-bottom-20px-tab {
@@ -765,10 +712,7 @@ RESPONSIVE MOBILE
         width: 90%;
     }
 
-    /* LARGEUR A 80% EN MOBILE*/
-    /*.width-80-mob {
-        width: 80%;
-    }*/
+    
 
     /* LARGEUR A 50% EN MOBILE */
     .width-50-mob {
@@ -823,12 +767,12 @@ RESPONSIVE MOBILE
     .li-border-mob {
         padding-bottom: 25px;
         border-bottom: 2px var(--grey) solid;
+        width: 50%;
     }
 
     /* AJOUT D UNE BORDURE POUR CERTAINS ELEMENTS DE LISTE ORDONNEES / MENU EN HOVER ET ACTIVE*/
-
-    .li-border-mob a:hover,
-    .li-border-mob a:active {
+    .li-border-mob:hover,
+    .li-border-mob:active {
         padding-bottom: 25px;
         border-bottom: 2px var(--dblue) solid;
     }
@@ -992,8 +936,6 @@ RESPONSIVE MOBILE
     .image-right {
         width: 30vw;
         height: 120px;
-        /*min-width: 39vw;
-        max-width: 40vw;*/
     }
 
 
